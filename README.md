@@ -33,7 +33,7 @@ LED Disp:
 * wire up the ATiny
 * program it
 * housing !
-* (add an analog HP EQ)
+* (add an analog HP EQ - could be hacked into the OpAmp socket on the DAC board :) just lift the feedback pins and add some parts)
 
 # Links
 
