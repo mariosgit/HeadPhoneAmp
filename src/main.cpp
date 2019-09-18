@@ -40,13 +40,14 @@ void setup()
         default = B11000000 = 0xC0
         muted =   B11011000 = 0xd8
 
+        Chip Adr = B[rw]1001111 ( The upper five bits of the 7-bit address field must be 10011. The lower 2 bits are AD1,AD0 pins )
         write = adr + regadr + data
                 10011xx + 0x04 + 0xd8
-                xx are what the AD[10] pins are set to.
+                xx are what the AD[10] pins are set to. (1!)
 
     */
     // this should mute it
-    TinyWireM.beginTransmission(B01001100);
+    TinyWireM.beginTransmission(B01001111);
     TinyWireM.send(0x04);
     TinyWireM.send(B11011000);
     TinyWireM.endTransmission();

@@ -53,3 +53,10 @@ AVRISP
 
 Connect ISP to ATTiny84
 ![isp](https://42bots.com/wp-content/uploads/2014/01/programming-attiny44-attiny84-with-arduino-uno.png)
+
+CS4398 pinout - to find the I2C port...
+* buuuuaaaa, they are grounded (pins 10 and 11) and AD0,AD1 are pulled up.
+    * might be able to cut the traces or drill away the via
+* VLC (logic voltage is set to 3.3V -> Arduino/ATTiny should run on 3.3V too)
+
+![](images/CS4398pinout.png)
