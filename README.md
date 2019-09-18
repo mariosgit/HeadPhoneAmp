@@ -48,5 +48,8 @@ LED Disp:
 ATTiny84 pinout
 ![pinout2](https://slideplayer.com/slide/6582475/23/images/24/ATtiny84+pinout+http:/forum.arduino.cc/index.php/topic,146315.0.html.jpg)
 
+AVRISP
+![avrisp](https://lh4.googleusercontent.com/_N4orY3Ztc3M/Tcq0gtaX_gI/AAAAAAAAAKM/9fju_il9l5U/s800/avrispmkII-pin-out.jpg)
+
 Connect ISP to ATTiny84
 ![isp](https://42bots.com/wp-content/uploads/2014/01/programming-attiny44-attiny84-with-arduino-uno.png)
