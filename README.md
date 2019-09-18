@@ -8,6 +8,24 @@ So The idea is to develop a digital volume control, a ATTiny84 which reads a pot
 
 * Theory ok.
 * All Parts aquired.
+* Tested DAC+AMP.
+    * Bad Pot - no LOG, channels unequal
+    * Too Loud / Gain / Pot Range
+
+## Pin Assignment
+
+Poti:
+* any Analog in: A1/D9
+
+I2C:
+* PORT_USI_SDA	PA6
+* PORT_USI_SCL	PA4
+
+LED Disp:
+* CLK:  D2
+* DATA: D3
+
+
 
 # Todo
 
@@ -20,7 +38,7 @@ So The idea is to develop a digital volume control, a ATTiny84 which reads a pot
 # Links
 
 ATTiny84 pinout
-![attiny84](https://1.bp.blogspot.com/-ls0T5IG8Sqk/Ugpi7XUCIpI/AAAAAAAAE2I/AjR5pnzEZ-U/s1600/attiny84+Pins+for+arduino-tiny+cores.jpg "ATTiny84")
+![pinout2](https://slideplayer.com/slide/6582475/23/images/24/ATtiny84+pinout+http:/forum.arduino.cc/index.php/topic,146315.0.html.jpg)
 
 Connect ISP to ATTiny84
 ![isp](https://42bots.com/wp-content/uploads/2014/01/programming-attiny44-attiny84-with-arduino-uno.png)

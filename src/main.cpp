@@ -5,7 +5,7 @@
 // I2C:
 // TinyWireM: https://github.com/adafruit/TinyWireM
 
-// Module connection pins (Digital Pins)
+// 7 Segment LED Module connection pins (Digital Pins)
 #define CLK 2
 #define DIO 3
 
