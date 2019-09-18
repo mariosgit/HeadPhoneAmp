@@ -9,6 +9,7 @@
 #define CLK 2
 #define DIO 3
 
+#define pinVolume A0
 // #define PORT_USI_SDA	PA6
 // #define PORT_USI_SCL	PA4
 
@@ -53,6 +54,15 @@ void setup()
 
 void loop()
 {
+    // example for volume control
+    while(1)
+    {
+        // CS4398 volume: 0=0dB, 1=-.5dB, 255=-127.5 dB
+        int aval = analogRead(pinVolume) - 1023;
+        display.showNumberDec(aval / 8, false); // Expect: ___0
+        delay(20);
+    }
+
     int k;
     uint8_t data[] = {0xff, 0xff, 0xff, 0xff};
     display.setBrightness(0x0f);
