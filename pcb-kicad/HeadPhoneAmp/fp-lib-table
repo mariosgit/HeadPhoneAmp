@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "HPAmp")(type "KiCad")(uri "${KIPRJMOD}/HPAmp.pretty")(options "")(descr ""))
+)

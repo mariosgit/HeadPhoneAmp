@@ -25,8 +25,6 @@ LED Disp:
 * CLK:  D2
 * DATA: D3
 
-
-
 # Todo
 
 * find I2C port on the DAC board
@@ -60,3 +58,7 @@ CS4398 pinout - to find the I2C port...
 * VLC (logic voltage is set to 3.3V -> Arduino/ATTiny should run on 3.3V too)
 
 ![](images/CS4398pinout.png)
+
+# Refs
+
+Used some Symbols... https://github.com/wykys/klib 

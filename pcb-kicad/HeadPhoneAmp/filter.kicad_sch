@@ -1,0 +1,5919 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "55bf2a9e-d943-4ca5-b096-a0345681d294")
+	(paper "A4")
+	(title_block
+		(title "Filter")
+		(date "2017-06-16")
+		(rev "1.1")
+		(company "Kai Dehmelt")
+		(comment 1 "Revision 1.1 - Michael Funk")
+	)
+	(lib_symbols
+		(symbol "freeDSP_Classic_SMD-rescue:+3V3"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "freeDSP_Classic_SMD-rescue:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C? C_????_* C_???? SMD*_c Capacitor*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "freeDSP_Classic_SMD-rescue:CONN_02X03"
+			(pin_names
+				(offset 0.0254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "P"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CONN_02X03"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -30.48 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -30.48 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin_Header_Straight_2X03 Pin_Header_Angled_2X03 Socket_Strip_Straight_2X03 Socket_Strip_Angled_2X03"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CONN_02X03_0_1"
+				(rectangle
+					(start -2.54 -2.413)
+					(end -1.27 -2.667)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 0.127)
+					(end -1.27 -0.127)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 2.667)
+					(end -1.27 2.413)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 3.81)
+					(end 2.54 -3.81)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CONN_02X03_1_1"
+				(pin passive line
+					(at -6.35 2.54 0)
+					(length 3.81)
+					(name "P1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 2.54 180)
+					(length 3.81)
+					(name "P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 0 0)
+					(length 3.81)
+					(name "P3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 3.81)
+					(name "P4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -2.54 0)
+					(length 3.81)
+					(name "P5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -2.54 180)
+					(length 3.81)
+					(name "P6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "freeDSP_Classic_SMD-rescue:CP"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CP"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP* Elko* TantalC* C*elec c_elec* SMD*_Pol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CP_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end -2.286 1.016)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 2.286 1.016)
+					(end -2.286 1.016)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 1.016)
+					(end 2.286 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CP_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "freeDSP_Classic_SMD-rescue:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "freeDSP_Classic_SMD-rescue:LM358"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -1.27 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LM358"
+				(at -1.27 -6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM358_0_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -10.16 90)
+					(length 6.35)
+					(name "V-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 10.16 270)
+					(length 6.35)
+					(name "V+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM358_1_1"
+				(pin output line
+					(at 12.7 0 180)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 7.62)
+					(name "-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 2.54 0)
+					(length 7.62)
+					(name "+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM358_2_1"
+				(pin input line
+					(at -12.7 2.54 0)
+					(length 7.62)
+					(name "+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 7.62)
+					(name "-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "freeDSP_Classic_SMD-rescue:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_* Resistor_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 113.03 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07af41e7-5c7e-438b-9e3d-ccbeafdc84c8")
+	)
+	(junction
+		(at 132.08 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12a0de4b-6bd0-47e7-9751-7033615799de")
+	)
+	(junction
+		(at 222.25 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cb1717c-7103-45a2-a420-57f69d080261")
+	)
+	(junction
+		(at 156.21 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20c3ce7f-76b9-4309-ab72-05b5c483dbdb")
+	)
+	(junction
+		(at 270.51 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31356000-3f88-4fe4-ac2a-d92e735f027d")
+	)
+	(junction
+		(at 232.41 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34cd0e54-b2bf-43af-9298-1b8968058bb2")
+	)
+	(junction
+		(at 113.03 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b66f9af-2007-4cea-b9d6-85642ba5b4a3")
+	)
+	(junction
+		(at 214.63 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d1ffdc0-cd1a-4bc9-91cd-7a4822f78283")
+	)
+	(junction
+		(at 72.39 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f595ed9-fe87-4395-9703-1262df2b534c")
+	)
+	(junction
+		(at 236.22 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4316e992-3b12-45e1-a9ce-79a4b0e1cb33")
+	)
+	(junction
+		(at 214.63 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "484842a8-b0b2-45fd-ae9a-d591e2de9893")
+	)
+	(junction
+		(at 267.97 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e9b6326-d048-44d0-8762-a80a26e8da78")
+	)
+	(junction
+		(at 72.39 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "616e2f45-3a25-44f3-ac3e-b26c69714ddf")
+	)
+	(junction
+		(at 270.51 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67ff837a-c1e2-43bb-ae84-219f510e5161")
+	)
+	(junction
+		(at 232.41 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "741dcaab-0970-4d05-88d9-16f133a32e0e")
+	)
+	(junction
+		(at 214.63 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75ebc283-690c-4dca-b1b0-6a9ae214dbcd")
+	)
+	(junction
+		(at 222.25 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "778ecb3e-1816-48a8-af92-8aab93d55c7a")
+	)
+	(junction
+		(at 132.08 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ffea88a-64fb-4a55-9f4d-c3cf5d1024b2")
+	)
+	(junction
+		(at 52.07 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "996f5e52-851c-4d47-8f24-4158837cb73c")
+	)
+	(junction
+		(at 219.71 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2e4b8f0-1983-42d2-9ce5-0c6d38999100")
+	)
+	(junction
+		(at 236.22 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a515392f-2881-4537-897d-a0a7397eaf9d")
+	)
+	(junction
+		(at 217.17 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3ff5b05-e7f2-4c02-a1d7-8b28280bf181")
+	)
+	(junction
+		(at 238.76 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b40070f6-1447-4df0-aa66-467e481ad522")
+	)
+	(junction
+		(at 52.07 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc2c4e08-a358-4318-8957-ad5bb5b2b9a7")
+	)
+	(junction
+		(at 156.21 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1f9e1fd-77c0-4698-bad3-8cd8452fba66")
+	)
+	(junction
+		(at 267.97 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dad2a8c2-12d4-4bdd-960a-2da4d292db3b")
+	)
+	(junction
+		(at 222.25 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e16bd6dc-1e3e-4821-ab9c-bff4678fb15c")
+	)
+	(junction
+		(at 113.03 34.417)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3eb7dd7-f70c-492d-9a37-f5ca74efd87b")
+	)
+	(junction
+		(at 238.76 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd2eea79-db48-41f1-bc8c-b1646130eb27")
+	)
+	(junction
+		(at 113.03 78.867)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff40653f-b956-4048-be40-d23f9cb08841")
+	)
+	(wire
+		(pts
+			(xy 83.82 34.417) (xy 113.03 34.417)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00ca845b-b8d2-4f1a-81a6-e408841dce6e")
+	)
+	(wire
+		(pts
+			(xy 222.25 96.52) (xy 222.25 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01182cad-f765-4d9d-8852-e2583f94cc24")
+	)
+	(wire
+		(pts
+			(xy 251.46 45.72) (xy 256.54 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01a401e8-b61b-4c99-a3b1-d1eab36b5ffd")
+	)
+	(wire
+		(pts
+			(xy 236.22 48.26) (xy 238.76 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03b1299e-4085-4e08-9085-d7cd8882b9d2")
+	)
+	(wire
+		(pts
+			(xy 52.07 43.18) (xy 52.07 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11eefe44-64ef-4dc7-9c93-e29b9d0b3e47")
+	)
+	(wire
+		(pts
+			(xy 132.08 45.72) (xy 132.08 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12abfe7f-67ec-46bf-84e7-36928da95176")
+	)
+	(wire
+		(pts
+			(xy 222.25 115.57) (xy 222.25 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16a588dd-e358-44fd-abec-65fbed6fb07e")
+	)
+	(wire
+		(pts
+			(xy 267.97 58.42) (xy 267.97 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1736818a-e85a-44d4-9560-0335921d9ec7")
+	)
+	(wire
+		(pts
+			(xy 232.41 144.78) (xy 240.03 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18aaa56b-8d3a-4e67-aaae-cd7e72709091")
+	)
+	(wire
+		(pts
+			(xy 270.51 110.49) (xy 270.51 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "195a81a8-ece3-48c7-b861-5441751b873d")
+	)
+	(wire
+		(pts
+			(xy 156.21 99.06) (xy 156.21 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19e34174-1e03-4c16-ae30-f38a52ade98b")
+	)
+	(wire
+		(pts
+			(xy 267.97 45.72) (xy 267.97 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a0cb929-6ad5-4768-81df-89d27b871cb4")
+	)
+	(wire
+		(pts
+			(xy 252.73 50.8) (xy 252.73 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1acaac3a-35ed-44d8-854c-5761d2e55dc8")
+	)
+	(wire
+		(pts
+			(xy 83.82 48.26) (xy 83.82 34.417)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b38b44b-d107-4214-8eac-e5ce79c6437b")
+	)
+	(wire
+		(pts
+			(xy 217.17 96.52) (xy 222.25 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f999ff0-8a8b-4002-b8f6-1cff40eeae86")
+	)
+	(wire
+		(pts
+			(xy 217.17 119.38) (xy 217.17 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fcf8388-69b8-4c49-b1ba-2fbf7322eae7")
+	)
+	(wire
+		(pts
+			(xy 219.71 45.72) (xy 224.79 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20ec7c82-b633-4e8d-8215-defb916ff54b")
+	)
+	(wire
+		(pts
+			(xy 236.22 48.26) (xy 236.22 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "240ea703-3f45-4ddf-ba5f-27d93259f49f")
+	)
+	(wire
+		(pts
+			(xy 255.27 52.07) (xy 256.54 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2463b0ab-fb00-4d80-9c6e-4fcbf063e613")
+	)
+	(wire
+		(pts
+			(xy 236.22 50.8) (xy 238.76 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2511248e-fed3-49b1-a50c-8a938bc71838")
+	)
+	(wire
+		(pts
+			(xy 46.99 43.18) (xy 52.07 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26c8abba-4177-4f73-bed2-685cdd9aed50")
+	)
+	(wire
+		(pts
+			(xy 240.03 154.94) (xy 232.41 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28ce8f0d-19a1-45ef-a002-0102df1704c3")
+	)
+	(wire
+		(pts
+			(xy 72.39 87.63) (xy 87.63 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "293ba77d-5281-4a9d-8f6c-a2b87113d8bc")
+	)
+	(wire
+		(pts
+			(xy 264.16 58.42) (xy 267.97 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2950ea5c-85e1-4665-9e5d-c83687d323ef")
+	)
+	(wire
+		(pts
+			(xy 254 104.14) (xy 259.08 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dbf9573-7cc3-415f-a9e5-648d1b2499a7")
+	)
+	(wire
+		(pts
+			(xy 132.08 90.17) (xy 143.51 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f04282a-827a-47f0-8099-ca1c877dd27f")
+	)
+	(wire
+		(pts
+			(xy 156.21 90.17) (xy 162.56 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "325aef87-3c8a-45cf-aada-302b24894623")
+	)
+	(wire
+		(pts
+			(xy 151.13 45.72) (xy 156.21 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "340ecebe-98c7-451c-a5d2-985d819dcf0f")
+	)
+	(wire
+		(pts
+			(xy 113.03 34.417) (xy 113.03 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34240a06-3978-4e34-bb6c-e72dab0f347d")
+	)
+	(wire
+		(pts
+			(xy 72.39 48.26) (xy 72.39 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c867678-6eaf-4b2f-a5f3-8f5d77c56d5f")
+	)
+	(wire
+		(pts
+			(xy 132.08 45.72) (xy 143.51 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f15563c-d45f-46de-bd51-091c50aa7fd6")
+	)
+	(wire
+		(pts
+			(xy 113.03 74.93) (xy 113.03 78.867)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "415032f1-8384-4a0b-a42f-278f2cf57cc2")
+	)
+	(wire
+		(pts
+			(xy 255.27 48.26) (xy 255.27 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "434f1de6-a31a-4954-91c2-f7ca7840b3e0")
+	)
+	(wire
+		(pts
+			(xy 254 109.22) (xy 255.27 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "438e1f77-8671-4359-91da-18640234dda6")
+	)
+	(wire
+		(pts
+			(xy 132.08 90.17) (xy 132.08 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47df38bb-6602-439a-af0f-974c85e79e4c")
+	)
+	(wire
+		(pts
+			(xy 251.46 50.8) (xy 252.73 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bdb2137-53e3-47c3-9bd9-181f0574d1b8")
+	)
+	(wire
+		(pts
+			(xy 217.17 107.95) (xy 217.17 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c24d899-5937-4a31-b22e-caa2d3829b57")
+	)
+	(wire
+		(pts
+			(xy 87.63 48.26) (xy 83.82 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c99403e-901e-43eb-99ca-d769296c3fe0")
+	)
+	(wire
+		(pts
+			(xy 238.76 106.68) (xy 241.3 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e9f2bc0-1083-472e-8499-d5720f81897d")
+	)
+	(wire
+		(pts
+			(xy 31.75 43.18) (xy 39.37 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53bf84ec-024f-4429-911c-4910647c6393")
+	)
+	(wire
+		(pts
+			(xy 240.03 144.78) (xy 240.03 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53f7107f-1e4e-413b-a4da-8bc7495e861c")
+	)
+	(wire
+		(pts
+			(xy 72.39 43.18) (xy 87.63 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "557f9ab6-fbaa-42e2-83f9-7d0a8fc578e8")
+	)
+	(wire
+		(pts
+			(xy 236.22 45.72) (xy 238.76 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56165f34-df0c-4770-a88c-7fb8b7486602")
+	)
+	(wire
+		(pts
+			(xy 214.63 142.24) (xy 214.63 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57eac742-363f-4689-a179-fafbe2f226bf")
+	)
+	(wire
+		(pts
+			(xy 214.63 45.72) (xy 219.71 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b527508-1d3a-41a9-ac83-f9a40a32bd6d")
+	)
+	(wire
+		(pts
+			(xy 97.79 66.04) (xy 97.79 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cb7a1b9-915d-475b-9fc8-b95e2c254c62")
+	)
+	(wire
+		(pts
+			(xy 113.03 30.48) (xy 113.03 34.417)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d34f8f0-00f7-4892-8127-75f1aa1779ca")
+	)
+	(wire
+		(pts
+			(xy 52.07 43.18) (xy 57.15 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e6ef4a8-8a99-4a01-baeb-9bfb23059f9a")
+	)
+	(wire
+		(pts
+			(xy 72.39 92.71) (xy 72.39 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62aefb1e-949f-47cb-9c16-ba3b297164ac")
+	)
+	(wire
+		(pts
+			(xy 266.7 110.49) (xy 270.51 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "649d48a2-36d7-4f4b-aaa0-f1149452adf2")
+	)
+	(wire
+		(pts
+			(xy 52.07 30.48) (xy 71.12 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "656b19bb-2ae2-4df8-b0de-982621a279b4")
+	)
+	(wire
+		(pts
+			(xy 83.82 78.867) (xy 113.03 78.867)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65c7d79d-940a-4814-8db4-81125889a68f")
+	)
+	(wire
+		(pts
+			(xy 113.03 78.867) (xy 113.03 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67c6b062-f65b-4816-a3ac-0697dc78614c")
+	)
+	(wire
+		(pts
+			(xy 31.75 87.63) (xy 39.37 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6906aa7f-f099-421c-8de1-0279ad634313")
+	)
+	(wire
+		(pts
+			(xy 102.87 45.72) (xy 113.03 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b5747fa-cbc5-4ace-a209-8aa74341f399")
+	)
+	(wire
+		(pts
+			(xy 264.16 52.07) (xy 267.97 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c6c1e69-850f-421d-bd6d-56ac502912b1")
+	)
+	(wire
+		(pts
+			(xy 219.71 57.15) (xy 219.71 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ca955b5-ff01-484e-a2a1-6ecd23a411fa")
+	)
+	(wire
+		(pts
+			(xy 219.71 60.96) (xy 214.63 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ed48d9c-5aea-4042-86e9-91e1a09b1be4")
+	)
+	(wire
+		(pts
+			(xy 214.63 60.96) (xy 214.63 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74ca1a88-b184-46cf-8918-f81322c01ca5")
+	)
+	(wire
+		(pts
+			(xy 252.73 58.42) (xy 256.54 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77ef9be9-e79e-49c0-aaf7-f349b91f5873")
+	)
+	(wire
+		(pts
+			(xy 264.16 45.72) (xy 267.97 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b135afc-07ce-45fa-a3ee-52a4bbdf9494")
+	)
+	(wire
+		(pts
+			(xy 214.63 49.53) (xy 214.63 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cfbf344-cb61-4ea4-8f00-d24fb297e5f3")
+	)
+	(wire
+		(pts
+			(xy 156.21 38.1) (xy 156.21 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82d9aeac-c8a4-45fc-aed2-fac18b5a4144")
+	)
+	(wire
+		(pts
+			(xy 266.7 116.84) (xy 270.51 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8453f825-47e3-4393-9616-228bec715fd4")
+	)
+	(wire
+		(pts
+			(xy 46.99 87.63) (xy 52.07 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84669493-6313-458a-b084-14f75b562c50")
+	)
+	(wire
+		(pts
+			(xy 52.07 87.63) (xy 57.15 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84a145b4-b90c-4405-bba3-2be1d60da6e4")
+	)
+	(wire
+		(pts
+			(xy 266.7 104.14) (xy 270.51 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8553313f-328f-4e0c-a6af-0b20c5f73888")
+	)
+	(wire
+		(pts
+			(xy 162.56 38.1) (xy 156.21 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87c26687-35d0-4a44-b2f2-38131ff7e146")
+	)
+	(wire
+		(pts
+			(xy 222.25 144.78) (xy 232.41 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8be0604d-66ce-4e9b-95ac-feceebdf24df")
+	)
+	(wire
+		(pts
+			(xy 236.22 45.72) (xy 236.22 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e547b90-0a0e-4351-8e96-1cc90b62d8ed")
+	)
+	(wire
+		(pts
+			(xy 222.25 107.95) (xy 222.25 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ec3380e-1615-47bc-b1b5-e10a49313a7c")
+	)
+	(wire
+		(pts
+			(xy 257.81 110.49) (xy 259.08 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "913f7f88-c89d-48bb-a735-60c74b14d1ca")
+	)
+	(wire
+		(pts
+			(xy 238.76 104.14) (xy 238.76 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9481ead7-161c-4a66-9b94-0df8cc877843")
+	)
+	(wire
+		(pts
+			(xy 113.03 74.93) (xy 78.74 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94b165cd-a2c3-43bd-9f0c-a7332067f68e")
+	)
+	(wire
+		(pts
+			(xy 255.27 116.84) (xy 259.08 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "969c98dc-749e-4b33-af48-2d018115f22b")
+	)
+	(wire
+		(pts
+			(xy 217.17 104.14) (xy 222.25 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98638ab9-6b78-40ae-bc15-9b0dad38a9c3")
+	)
+	(wire
+		(pts
+			(xy 214.63 154.94) (xy 214.63 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a03ae58-e292-4760-b841-f7241de2d159")
+	)
+	(wire
+		(pts
+			(xy 113.03 30.48) (xy 78.74 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b75929d-c277-4699-9d17-d0759fbc5396")
+	)
+	(wire
+		(pts
+			(xy 219.71 49.53) (xy 219.71 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c089d78-faad-464b-9ac1-501c37c6f434")
+	)
+	(wire
+		(pts
+			(xy 270.51 104.14) (xy 270.51 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e29f23c-d34d-4398-bd01-2f66936cf659")
+	)
+	(wire
+		(pts
+			(xy 255.27 109.22) (xy 255.27 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f2cd235-8c1c-415c-8632-b6427bf95e21")
+	)
+	(wire
+		(pts
+			(xy 270.51 116.84) (xy 270.51 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0eb6da0-ef2b-473c-93bc-43747d7c582c")
+	)
+	(wire
+		(pts
+			(xy 222.25 154.94) (xy 214.63 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1b6842e-897d-4dd2-8f59-42f11446a2b0")
+	)
+	(wire
+		(pts
+			(xy 123.19 45.72) (xy 132.08 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a467a9f2-dc3b-47ea-a976-5b5820e7b11a")
+	)
+	(wire
+		(pts
+			(xy 156.21 91.44) (xy 156.21 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a77a780c-6ccb-4ff6-b364-cb011fe18396")
+	)
+	(wire
+		(pts
+			(xy 113.03 90.17) (xy 115.57 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a921a162-0386-477b-8ac2-34cab0792011")
+	)
+	(wire
+		(pts
+			(xy 156.21 83.82) (xy 156.21 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a922075e-3230-4348-ad2a-2dfec62aec2f")
+	)
+	(wire
+		(pts
+			(xy 222.25 146.05) (xy 222.25 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9f19d2e-b5f1-4002-8308-53ba5e58a67f")
+	)
+	(wire
+		(pts
+			(xy 102.87 90.17) (xy 113.03 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adb66051-6344-4ee6-986f-52a41728a2a4")
+	)
+	(wire
+		(pts
+			(xy 219.71 38.1) (xy 219.71 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aef7f256-3268-4230-8f20-ced1d96a1ccc")
+	)
+	(wire
+		(pts
+			(xy 222.25 104.14) (xy 227.33 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0903a46-6d11-4f53-a76b-cba4fa8aee66")
+	)
+	(wire
+		(pts
+			(xy 238.76 106.68) (xy 238.76 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b14e26b5-3a82-4240-b377-1b707798c89e")
+	)
+	(wire
+		(pts
+			(xy 123.19 90.17) (xy 132.08 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b18d23aa-bae0-48fe-9324-c01feb486251")
+	)
+	(wire
+		(pts
+			(xy 251.46 48.26) (xy 255.27 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2a3e515-9065-4d2f-b713-30adc60122ca")
+	)
+	(wire
+		(pts
+			(xy 238.76 109.22) (xy 241.3 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b64e755b-a642-410d-9de2-e435bce7d6fb")
+	)
+	(wire
+		(pts
+			(xy 87.63 92.71) (xy 83.82 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8573814-b74c-4124-a52a-f3d9b61cab83")
+	)
+	(wire
+		(pts
+			(xy 232.41 146.05) (xy 232.41 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9b47404-e890-474a-aed0-ba0bb9e4bf00")
+	)
+	(wire
+		(pts
+			(xy 214.63 153.67) (xy 214.63 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc191936-aea7-4ba4-8f9a-3880478f2c3f")
+	)
+	(wire
+		(pts
+			(xy 234.95 104.14) (xy 238.76 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be18cb44-e0a4-4a4e-8d46-fa3a005bea4c")
+	)
+	(wire
+		(pts
+			(xy 222.25 153.67) (xy 222.25 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c10360ab-3e93-448b-8217-ed0c8d3d9fc7")
+	)
+	(wire
+		(pts
+			(xy 132.08 57.15) (xy 132.08 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3521f4e-6c20-4f3b-9571-150e59b70c46")
+	)
+	(wire
+		(pts
+			(xy 156.21 54.61) (xy 156.21 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6449520-8cb4-4c75-98e3-6d6bfe74509d")
+	)
+	(wire
+		(pts
+			(xy 52.07 87.63) (xy 52.07 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c754c071-a9f2-4fc3-b1cf-d52454961540")
+	)
+	(wire
+		(pts
+			(xy 97.79 21.59) (xy 97.79 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7afb3dc-70be-4c46-8220-90ea5af45e4c")
+	)
+	(wire
+		(pts
+			(xy 156.21 45.72) (xy 162.56 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca143d13-c65c-426a-9e6a-583310c303a6")
+	)
+	(wire
+		(pts
+			(xy 215.9 38.1) (xy 219.71 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca683e9c-cff0-43cd-9783-01f8257e99ee")
+	)
+	(wire
+		(pts
+			(xy 232.41 153.67) (xy 232.41 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc58aa79-73ff-4496-98e7-04f2b85e0d8c")
+	)
+	(wire
+		(pts
+			(xy 162.56 83.82) (xy 156.21 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce97c12c-f528-496e-a338-b284d2cb45ea")
+	)
+	(wire
+		(pts
+			(xy 257.81 106.68) (xy 257.81 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d110e837-a9c8-4b02-aa93-0b56d2ccc75d")
+	)
+	(wire
+		(pts
+			(xy 52.07 74.93) (xy 71.12 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6067a65-2bf6-4cce-98f8-f650e8e84bb3")
+	)
+	(wire
+		(pts
+			(xy 214.63 144.78) (xy 222.25 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da51cb48-937c-4f39-aaa5-97ae7f1f8ef9")
+	)
+	(wire
+		(pts
+			(xy 222.25 119.38) (xy 217.17 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0bf1b52-ccdb-49eb-83c2-3632d63b2ff6")
+	)
+	(wire
+		(pts
+			(xy 232.41 45.72) (xy 236.22 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0e7de5d-6b05-49d9-83f1-f1aca1111a7e")
+	)
+	(wire
+		(pts
+			(xy 113.03 45.72) (xy 115.57 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7a6813c-d1aa-4fcf-84d8-64eca0eec3df")
+	)
+	(wire
+		(pts
+			(xy 64.77 87.63) (xy 72.39 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea934aa6-ad75-42f6-9b7d-f9665850e302")
+	)
+	(wire
+		(pts
+			(xy 238.76 104.14) (xy 241.3 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed4a98c8-71e4-427f-b289-05910d72ff7c")
+	)
+	(wire
+		(pts
+			(xy 64.77 43.18) (xy 72.39 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee6d335a-2f02-468c-b918-e6a30c9861b6")
+	)
+	(wire
+		(pts
+			(xy 83.82 92.71) (xy 83.82 78.867)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f03b62b2-e723-4208-9e11-129754f0650c")
+	)
+	(wire
+		(pts
+			(xy 267.97 52.07) (xy 267.97 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f117881a-e81c-4310-8794-afefbf9418f1")
+	)
+	(wire
+		(pts
+			(xy 214.63 144.78) (xy 214.63 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6c9e01a-dc97-47f3-9867-f658b5987767")
+	)
+	(wire
+		(pts
+			(xy 240.03 153.67) (xy 240.03 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fba1585d-646e-4a9a-bf4d-8dde01e19209")
+	)
+	(wire
+		(pts
+			(xy 156.21 46.99) (xy 156.21 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd04b381-95c9-4911-aafa-c35b0b7c3d54")
+	)
+	(wire
+		(pts
+			(xy 254 106.68) (xy 257.81 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd38763e-1b55-4b05-8158-270bb7930044")
+	)
+	(wire
+		(pts
+			(xy 151.13 90.17) (xy 156.21 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd55b63d-d506-4b76-b8e6-df1539540c51")
+	)
+	(wire
+		(pts
+			(xy 232.41 154.94) (xy 222.25 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffcb9c9f-7043-4757-9e51-ea38fc33ece9")
+	)
+	(text "Output Filter"
+		(exclude_from_sim no)
+		(at 21.59 19.05 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "63c3b703-4dac-4aa2-992b-751405f88316")
+	)
+	(text "Input"
+		(exclude_from_sim no)
+		(at 200.66 27.94 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd3a463a-92cb-46d9-bc03-3721a9189c77")
+	)
+	(global_label "ADC0"
+		(shape output)
+		(at 267.97 66.04 270)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "08cfc2bf-cd27-48ef-a114-66b60d66e530")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 267.97 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VOUT0"
+		(shape input)
+		(at 31.75 43.18 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "18398320-146c-45a5-bfa4-1da2bf98db7f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH2_IN"
+		(shape output)
+		(at 162.56 90.17 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "3c38b901-fa0e-443b-966f-445d5bb91cb9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VOUT1"
+		(shape input)
+		(at 31.75 87.63 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "93620ad0-ff7c-4554-a8e6-f0b2fff0772a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.75 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH1_IN"
+		(shape output)
+		(at 162.56 45.72 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "d0760b8e-4a7c-4d1e-933c-2324cfeace57")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.56 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADC1"
+		(shape output)
+		(at 270.51 124.46 270)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "daf0dab4-8055-4ec2-8005-3d824bf9276d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 270.51 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "DAC1"
+		(shape output)
+		(at 162.56 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "099c4c4f-0bfa-4d57-931d-7c7619fc15a3")
+	)
+	(hierarchical_label "ADC0"
+		(shape input)
+		(at 215.9 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0af217db-6c8f-4bb0-98af-0e153971fcac")
+	)
+	(hierarchical_label "ADC1"
+		(shape input)
+		(at 217.17 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "11c13acf-e9f9-4524-86de-cbb3bfa644f6")
+	)
+	(hierarchical_label "DAC0"
+		(shape output)
+		(at 162.56 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ddfc7331-216f-40c7-a9be-83a9e0739dc5")
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:R")
+		(at 43.18 43.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005929f304")
+		(property "Reference" "R12"
+			(at 43.18 45.212 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k"
+			(at 43.18 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "fdsp_resistor:R_1206_HandSoldering"
+			(at 43.18 41.402 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a2e1093-9be7-4747-ab11-235eb0a7bfc2")
+		)
+		(pin "1"
+			(uuid "361c9c8b-92e5-4b9b-98a3-e10d0ebdc802")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:R")
+		(at 60.96 43.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005929f47c")
+		(property "Reference" "R16"
+			(at 60.96 45.212 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "16k"
+			(at 60.96 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "fdsp_resistor:R_1206_HandSoldering"
+			(at 60.96 41.402 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e49d1c71-48aa-41b9-a6da-421d850c7c57")
+		)
+		(pin "1"
+			(uuid "01976cd5-a3b9-41c6-9159-dc04de87c535")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:C")
+		(at 72.39 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005929f4fb")
+		(property "Reference" "C20"
+			(at 73.025 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100p"
+			(at 73.025 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 73.3552 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d561712d-f3a7-4e24-abe8-0b88e4152fd7")
+		)
+		(pin "2"
+			(uuid "c2f0eb6f-75ba-4f16-9b56-cae993eb086f")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:C")
+		(at 74.93 30.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005929f56c")
+		(property "Reference" "C24"
+			(at 77.47 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330p"
+			(at 72.39 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 71.12 31.4452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87381fad-c758-4b56-9bb6-24def8f998bb")
+		)
+		(pin "2"
+			(uuid "e8a8a84e-d407-470b-b132-7a165e7b5c4d")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:R")
+		(at 119.38 45.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005929f7a9")
+		(property "Reference" "R20"
+			(at 119.38 47.752 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 119.38 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "fdsp_resistor:R_1206_HandSoldering"
+			(at 119.38 43.942 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d29ef214-4b53-4c31-bdc4-855271ef0610")
+		)
+		(pin "2"
+			(uuid "f1c4a055-bca2-4bc7-a2c5-8f65a2b2825e")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:C")
+		(at 132.08 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005929f896")
+		(property "Reference" "C28"
+			(at 132.715 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.6n"
+			(at 132.715 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 133.0452 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96180bc8-82c4-4647-8205-fb3ae6b2329c")
+		)
+		(pin "2"
+			(uuid "c565a317-efce-42f1-ad6f-928e90f3b741")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:CP")
+		(at 147.32 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005929f8f3")
+		(property "Reference" "C32"
+			(at 144.78 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 149.86 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "fdsp_capacitor:C_Radial_D5_L11_P2"
+			(at 151.13 44.7548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fffa051e-8014-4cc0-8ca1-2dc12dce8674")
+		)
+		(pin "2"
+			(uuid "618e3e08-242a-4b72-b7af-5c41967b1891")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:GND")
+		(at 97.79 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000592a045f")
+		(property "Reference" "#PWR047"
+			(at 97.79 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.79 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c9f240d-b8c4-42ad-b2ca-0d853478c39c")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:+3V3")
+		(at 97.79 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000592ad82e")
+		(property "Reference" "#PWR043"
+			(at 97.79 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 97.79 18.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95bc25ac-8b47-49d7-93c1-0b445a3fd24a")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:GND")
+		(at 72.39 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000592b031b")
+		(property "Reference" "#PWR046"
+			(at 72.39 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d697b718-fc9a-4125-91a1-9741664b8a52")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:R")
+		(at 156.21 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000592b8cc9")
+		(property "Reference" "R24"
+			(at 158.242 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "49k9"
+			(at 156.21 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "fdsp_resistor:R_1206_HandSoldering"
+			(at 154.432 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "13a90b2f-4328-43c3-8ddc-f484f5e3f768")
+		)
+		(pin "1"
+			(uuid "7c343f11-3ba4-4963-8338-f36b0f4a5911")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:CP")
+		(at 228.6 45.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000592c428e")
+		(property "Reference" "C38"
+			(at 231.14 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47u"
+			(at 226.06 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "fdsp_capacitor:C_Radial_D5_L11_P2"
+			(at 224.79 46.6852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b14d3171-c0b8-46ac-9632-3e05b7e808df")
+		)
+		(pin "1"
+			(uuid "234fb956-ffc1-4a4c-acc3-ac450d31edb9")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:CONN_02X03")
+		(at 245.11 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000592c434d")
+		(property "Reference" "P8"
+			(at 245.11 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CONN_02X03"
+			(at 245.11 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "fdsp_pinheader:Pin_Header_Straight_2x03"
+			(at 245.11 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 245.11 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "de72ab4f-0a44-4699-b7a2-ce620fb441c2")
+		)
+		(pin "2"
+			(uuid "a5829c1f-4956-4daf-b8f9-a45301e114e1")
+		)
+		(pin "6"
+			(uuid "af4f0148-4bfe-4aee-9aca-b628c74abc20")
+		)
+		(pin "1"
+			(uuid "01e9426c-24fe-4863-8919-d7e51ac2a399")
+		)
+		(pin "3"
+			(uuid "059209b5-c261-4987-8828-4ce035ab87db")
+		)
+		(pin "5"
+			(uuid "f91f1847-e5a8-4695-b9b9-361c2e5083a0")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "P8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:R")
+		(at 260.35 45.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000592c43f4")
+		(property "Reference" "R30"
+			(at 260.35 47.752 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "7k"
+			(at 260.35 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "fdsp_resistor:R_1206_HandSoldering"
+			(at 260.35 43.942 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 260.35 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8d65a3ed-7eb9-4a46-873b-96ca55ebcd5a")
+		)
+		(pin "1"
+			(uuid "0375171e-bf67-46ef-aae5-03320ff69dfe")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:R")
+		(at 260.35 52.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000592c44d9")
+		(property "Reference" "R31"
+			(at 260.35 54.102 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "8k"
+			(at 260.35 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "fdsp_resistor:R_1206_HandSoldering"
+			(at 260.35 50.292 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 260.35 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64586140-1135-415c-9dbe-59f97a5b89e7")
+		)
+		(pin "2"
+			(uuid "b9ac845c-5254-4a11-8996-23e7d750db36")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:R")
+		(at 260.35 58.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000592c45c3")
+		(property "Reference" "R32"
+			(at 260.35 60.452 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "18k"
+			(at 260.35 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "fdsp_resistor:R_1206_HandSoldering"
+			(at 260.35 56.642 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 260.35 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9f2b2a69-7038-4b42-b20c-a3fa02ee2c49")
+		)
+		(pin "1"
+			(uuid "ed0a162e-ac34-4c78-9889-33a68507d676")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:GND")
+		(at 214.63 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000592c4a15")
+		(property "Reference" "#PWR044"
+			(at 214.63 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad27e31e-e196-4b73-a0dc-9aad27750f89")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:R")
+		(at 219.71 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000592c4b32")
+		(property "Reference" "R28"
+			(at 221.742 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "49k9"
+			(at 219.71 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "fdsp_resistor:R_1206_HandSoldering"
+			(at 217.932 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e71c8d1-1955-4416-9e19-85431aec9832")
+		)
+		(pin "2"
+			(uuid "f3d1144d-aaff-405f-a708-2cb1bc02ffac")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:LM358")
+		(at 100.33 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000592c5129")
+		(property "Reference" "U3"
+			(at 100.33 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LME49721"
+			(at 100.33 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 100.33 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fa16e2f5-016d-4656-b214-10cfcab698e3")
+		)
+		(pin "1"
+			(uuid "9f72bfba-d078-4d4e-b514-9ec2d0fddcb5")
+		)
+		(pin "6"
+			(uuid "2c32fe03-02a4-43bc-85d7-0d6238e6d7c5")
+		)
+		(pin "8"
+			(uuid "1cbe2b9d-5e94-4b7e-b7a8-6e36a2da16b8")
+		)
+		(pin "7"
+			(uuid "f4238c48-243e-4f84-a3db-4d1f55c50305")
+		)
+		(pin "3"
+			(uuid "0d1620a7-c5d8-4033-8ae1-1890355b5f44")
+		)
+		(pin "5"
+			(uuid "baea273f-0148-42f7-849c-62ac6d720569")
+		)
+		(pin "4"
+			(uuid "a566af24-1da5-4ff8-9b7e-a9b972a2fb9a")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:CP")
+		(at 231.14 104.14 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000592c64bf")
+		(property "Reference" "C39"
+			(at 233.68 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47u"
+			(at 228.6 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "fdsp_capacitor:C_Radial_D5_L11_P2"
+			(at 227.33 105.1052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0b1801df-32c8-4f84-90d0-037d0a1c3699")
+		)
+		(pin "1"
+			(uuid "38f5f6aa-7f83-47ea-a38d-ef1f5c65884f")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:CONN_02X03")
+		(at 247.65 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000592c64c5")
+		(property "Reference" "P9"
+			(at 247.65 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CONN_02X03"
+			(at 247.65 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "fdsp_pinheader:Pin_Header_Straight_2x03"
+			(at 247.65 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ecde89f5-9720-44f9-b0aa-af2e8f214971")
+		)
+		(pin "4"
+			(uuid "58a0dfb0-daa5-4e1a-9919-2a0b05ed4f13")
+		)
+		(pin "5"
+			(uuid "c4c3c1b8-0a8e-4dbb-8e75-c191d431bd77")
+		)
+		(pin "1"
+			(uuid "c6fdff85-b01b-416d-99b7-3b77ab773634")
+		)
+		(pin "6"
+			(uuid "9baf6e86-3bfe-48d3-880e-4bd77128e410")
+		)
+		(pin "2"
+			(uuid "536ba41b-4fa8-4971-ae34-c2d7446d3ae3")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "P9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:R")
+		(at 262.89 104.14 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000592c64cb")
+		(property "Reference" "R33"
+			(at 262.89 106.172 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "7k"
+			(at 262.89 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "fdsp_resistor:R_1206_HandSoldering"
+			(at 262.89 102.362 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f366cb22-ab8c-44fa-9740-d3521fd038b6")
+		)
+		(pin "2"
+			(uuid "f4b1666e-3f95-4e61-b6b0-a0554a0665c2")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:R")
+		(at 262.89 110.49 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000592c64d1")
+		(property "Reference" "R34"
+			(at 262.89 112.522 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "8k"
+			(at 262.89 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "fdsp_resistor:R_1206_HandSoldering"
+			(at 262.89 108.712 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "626bbaf9-7be8-409a-8cfe-2ea6effa19a0")
+		)
+		(pin "1"
+			(uuid "d41a972d-3543-4ef6-9499-efe1941ae569")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:R")
+		(at 262.89 116.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000592c64d7")
+		(property "Reference" "R35"
+			(at 262.89 118.872 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "18k"
+			(at 262.89 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "fdsp_resistor:R_1206_HandSoldering"
+			(at 262.89 115.062 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e7dbbd10-92e5-48de-80dd-936cc916fbd2")
+		)
+		(pin "1"
+			(uuid "d636d543-437e-4218-8b56-da2e8367c557")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:GND")
+		(at 217.17 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000592c64eb")
+		(property "Reference" "#PWR045"
+			(at 217.17 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b194e623-be28-4bdc-a862-d3fc66680b65")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:R")
+		(at 222.25 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000592c64f1")
+		(property "Reference" "R29"
+			(at 224.282 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "49k9"
+			(at 222.25 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "fdsp_resistor:R_1206_HandSoldering"
+			(at 220.472 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7d97aed2-32db-44af-bcdf-ec55136a5590")
+		)
+		(pin "1"
+			(uuid "66bb1f69-33ab-454f-9661-edb80b99cf91")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:GND")
+		(at 214.63 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000592ee586")
+		(property "Reference" "#PWR065"
+			(at 214.63 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 157.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 157.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc0263f4-b2ed-4a6f-be9c-3b244ce9a836")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:CP")
+		(at 214.63 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000592ee7f4")
+		(property "Reference" "C36"
+			(at 215.265 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 215.265 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "fdsp_capacitor:C_Radial_D5_L11_P2"
+			(at 215.5952 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78fe0479-76bf-4720-bc35-13fc654555e9")
+		)
+		(pin "2"
+			(uuid "3cd31e5f-174c-4789-807f-8ef34058c976")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:CP")
+		(at 222.25 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000592ee981")
+		(property "Reference" "C37"
+			(at 222.885 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 222.885 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "fdsp_capacitor:C_Radial_D5_L11_P2"
+			(at 223.2152 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4faea504-ae7e-4d4e-a85e-57ddfd0d2a47")
+		)
+		(pin "1"
+			(uuid "51a54ab3-a2a0-4d6b-bc0b-48f0053bebdf")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:+3V3")
+		(at 214.63 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000592eea39")
+		(property "Reference" "#PWR066"
+			(at 214.63 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 214.63 138.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7a2958b-9aba-4f43-8f27-d72b1122da96")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:C")
+		(at 232.41 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000592eed51")
+		(property "Reference" "C40"
+			(at 233.045 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 233.045 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 233.3752 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ad47ed7-275b-4802-a5be-727dad552924")
+		)
+		(pin "2"
+			(uuid "9f8f385e-592f-4189-8759-63cf10f0a2b8")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:C")
+		(at 240.03 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000592eef8e")
+		(property "Reference" "C41"
+			(at 240.665 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 240.665 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 240.9952 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "65079d45-cb9d-4c1d-8476-9a6a37568d81")
+		)
+		(pin "1"
+			(uuid "f5a3f659-3d64-40ce-ba06-881925dbc474")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:+3V3")
+		(at 97.79 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000059327c4d")
+		(property "Reference" "#PWR048"
+			(at 97.79 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 97.79 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5316b27-8b4d-45c1-a1e0-9362dbc056ab")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:GND")
+		(at 72.39 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000059327c7d")
+		(property "Reference" "#PWR049"
+			(at 72.39 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da8121a6-2e0b-406d-a3c8-28afa2737097")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:GND")
+		(at 97.79 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000059327c83")
+		(property "Reference" "#PWR050"
+			(at 97.79 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.79 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "914e937b-e6b0-4ad4-9e5a-0f2229bc3e27")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:CP")
+		(at 147.32 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000059327c89")
+		(property "Reference" "C33"
+			(at 144.78 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 149.86 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "fdsp_capacitor:C_Radial_D5_L11_P2"
+			(at 151.13 89.2048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab62ebf6-1df0-409c-b1d8-0e173a5ec3e9")
+		)
+		(pin "2"
+			(uuid "d69637eb-23f0-4375-8212-f5a0679d8986")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:C")
+		(at 132.08 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000059327c8f")
+		(property "Reference" "C29"
+			(at 132.715 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.6n"
+			(at 132.715 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 133.0452 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "457272d8-b044-443b-9e33-7e212166f2e0")
+		)
+		(pin "2"
+			(uuid "4ad5bb64-9c3b-40f7-a3e1-d9205ca5d5e8")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:R")
+		(at 119.38 90.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000059327c95")
+		(property "Reference" "R21"
+			(at 119.38 92.202 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 119.38 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "fdsp_resistor:R_1206_HandSoldering"
+			(at 119.38 88.392 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "241e3e61-03e0-4ec8-bc36-569d27db32fe")
+		)
+		(pin "1"
+			(uuid "4afd1298-4a2f-4482-8013-5b1169785d50")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:C")
+		(at 74.93 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000059327c9b")
+		(property "Reference" "C25"
+			(at 77.47 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330p"
+			(at 72.39 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 71.12 75.8952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c82d2f64-0245-4839-86f9-51670ad597eb")
+		)
+		(pin "2"
+			(uuid "a883ebd7-42b8-445f-be2b-d317dc5d1134")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:C")
+		(at 72.39 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000059327ca1")
+		(property "Reference" "C21"
+			(at 73.025 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100p"
+			(at 73.025 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 73.3552 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "77b11698-1b74-480e-9940-4cad6b046f69")
+		)
+		(pin "1"
+			(uuid "f97f19b6-60a2-4d84-b9b7-b93989442fca")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:R")
+		(at 60.96 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000059327ca7")
+		(property "Reference" "R17"
+			(at 60.96 89.662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "16k"
+			(at 60.96 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "fdsp_resistor:R_1206_HandSoldering"
+			(at 60.96 85.852 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae49c67b-7fb6-418f-84c0-9d74d5a68110")
+		)
+		(pin "2"
+			(uuid "212892fd-2fc9-4367-9382-29a98c9b84fc")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:R")
+		(at 43.18 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000059327cad")
+		(property "Reference" "R13"
+			(at 43.18 89.662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k"
+			(at 43.18 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "fdsp_resistor:R_1206_HandSoldering"
+			(at 43.18 85.852 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8cf8b67a-85bf-4f0e-a8a3-f88254657502")
+		)
+		(pin "2"
+			(uuid "53580c7e-6818-48f3-810a-9e5b16a46397")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:LM358")
+		(at 100.33 90.17 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000059329030")
+		(property "Reference" "U3"
+			(at 99.06 85.09 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LME49721"
+			(at 99.06 96.52 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 100.33 90.17 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 90.17 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "22f5a8d2-5e67-4454-ba3e-e6708326179b")
+		)
+		(pin "5"
+			(uuid "236000f9-2561-45d4-a32b-9bcff86266a2")
+		)
+		(pin "4"
+			(uuid "e2f22afa-40ea-4e0c-978f-148a76345ccd")
+		)
+		(pin "8"
+			(uuid "4ce73a39-9841-4776-8e39-c0bd618c8613")
+		)
+		(pin "1"
+			(uuid "a48c3e1f-80bf-445f-b61b-0c7ff43192e7")
+		)
+		(pin "2"
+			(uuid "4f73d239-8cdd-4878-b8b0-fd5f5505e752")
+		)
+		(pin "6"
+			(uuid "23a8cfbf-7f53-4bc0-b547-fd919448e134")
+		)
+		(pin "7"
+			(uuid "7e3b286a-af91-49a5-9872-93a7b66242cd")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "U3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:GND")
+		(at 156.21 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005932a2f4")
+		(property "Reference" "#PWR057"
+			(at 156.21 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 58.42 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 58.42 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b137b97-c37d-4423-95f5-9f5a31fb41b3")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:GND")
+		(at 132.08 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005932a518")
+		(property "Reference" "#PWR058"
+			(at 132.08 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.08 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 59.69 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 59.69 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53623de4-6935-4295-a082-18b91426c37f")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:R")
+		(at 156.21 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005932b475")
+		(property "Reference" "R25"
+			(at 158.242 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "49k9"
+			(at 156.21 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "fdsp_resistor:R_1206_HandSoldering"
+			(at 154.432 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "68f95c39-fe96-4d4f-992d-05fb38edc1a5")
+		)
+		(pin "1"
+			(uuid "b504011e-313e-4557-9a78-4412b8e8ccb8")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:GND")
+		(at 156.21 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005932b47d")
+		(property "Reference" "#PWR059"
+			(at 156.21 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 102.87 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 102.87 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61baa376-f277-4bca-a9dd-0a15b926378d")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "freeDSP_Classic_SMD-rescue:GND")
+		(at 132.08 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005932ba1a")
+		(property "Reference" "#PWR062"
+			(at 132.08 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.08 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 101.6 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 101.6 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68f8d404-96f2-4b32-8eed-71a8ccf5b986")
+		)
+		(instances
+			(project "HeadPhoneAmp"
+				(path "/786277e1-ce20-4bf9-9881-3e7e27b23752/7d9cd633-dab3-407b-8049-97effd501ef6/00000000-0000-0000-0000-0000592d4e3f"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
