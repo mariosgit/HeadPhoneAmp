@@ -1,4 +1,151 @@
-23643794311954026
+23681637020926054
+Adafruit PowerBoost 1000C Rev B
+1X08_ROUND
+
+
+0
+8
+8
+Adafruit PowerBoost 1000C Rev B
+4UCONN_20329
+
+
+0
+11
+11
+Adafruit PowerBoost 1000C Rev B
+0805-NO
+
+
+0
+2
+2
+Adafruit PowerBoost 1000C Rev B
+0805_10MGAP
+
+
+0
+2
+2
+Adafruit PowerBoost 1000C Rev B
+ADAFRUIT_3.5MM
+
+
+0
+0
+0
+Adafruit PowerBoost 1000C Rev B
+ADAFRUIT_5MM
+
+
+0
+0
+0
+Adafruit PowerBoost 1000C Rev B
+C1210
+CAPACITOR
+
+0
+2
+2
+Adafruit PowerBoost 1000C Rev B
+CHIPLED_0805_NOOUTLINE
+
+
+0
+2
+2
+Adafruit PowerBoost 1000C Rev B
+FIDUCIAL_1MM
+
+
+0
+1
+1
+Adafruit PowerBoost 1000C Rev B
+INDUCTOR_5X5MM_TDK_VLC5045
+Source: http://www.tdk.co.jp/tefe02/e531_vlc5045.pdf
+
+0
+2
+2
+Adafruit PowerBoost 1000C Rev B
+JSTPH2
+2-Pin JST PH Series Right-Angle Connector (+/- for batteries)
+
+0
+4
+4
+Adafruit PowerBoost 1000C Rev B
+MOUNTINGHOLE_2.5_PLATED
+
+
+0
+1
+1
+Adafruit PowerBoost 1000C Rev B
+PCBFEAT-REV-040
+Revision Level Field - 40 mil{return}{return}Set version with global board attribute '>REV'
+
+0
+0
+0
+Adafruit PowerBoost 1000C Rev B
+PVQFN-16
+
+
+0
+22
+22
+Adafruit PowerBoost 1000C Rev B
+QFN20_4MM
+20-Lead QFN 4x4mm Body, 0.5mm pitch{return}{return}Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22090b.pdf
+
+0
+21
+21
+Adafruit PowerBoost 1000C Rev B
+SC59-BEC
+SC59 (SOT23) Motorola
+
+0
+3
+3
+Adafruit PowerBoost 1000C Rev B
+SYMBOL_MINUS
+ICON{return}{return}Minus Symbol
+
+0
+0
+0
+Adafruit PowerBoost 1000C Rev B
+SYMBOL_PLUS
+ICON{return}{return}Plus Sign Symbol
+
+0
+0
+0
+Adafruit PowerBoost 1000C Rev B
+TERMBLOCK_1X2-3.5MM
+
+
+0
+2
+2
+Adafruit PowerBoost 1000C Rev B
+USB_HOST-PTH
+
+
+0
+6
+6
+Adafruit PowerBoost 1000C Rev B
+_0805MP
+0805 MicroPitch
+
+0
+2
+2
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57679,6 +57826,13 @@ CaseBB
 0
 0
 0
+HPAmp
+WQFN-16-1EP_3x3mm_P0.5mm_LongPad_ThermalVia
+WQFN, 16 Pin (https://www.ti.com/lit/ds/symlink/tlv9064.pdf#page=44), generated with kicad-footprint-generator ipc_noLead_generator.py
+WQFN NoLead
+0
+23
+17
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
