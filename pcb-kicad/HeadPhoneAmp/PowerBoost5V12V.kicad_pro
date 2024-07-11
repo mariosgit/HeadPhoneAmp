@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.8,
+          "height": 1.2,
+          "width": 1.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -81,7 +81,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
@@ -96,8 +96,8 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
-        "text_height": "warning",
+        "starved_thermal": "warning",
+        "text_height": "ignore",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -432,7 +432,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Adafruit PowerBoost 1000C Rev B.kicad_pro",
+    "filename": "PowerBoost5V12V.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -578,7 +578,7 @@
   "sheets": [
     [
       "12988253-26f6-48fd-a919-0017342d43dc",
-      "Adafruit PowerBoost 1000C Rev B_0"
+      "Root"
     ]
   ],
   "text_variables": {}

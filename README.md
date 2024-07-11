@@ -15,20 +15,28 @@ New plan... Make my own HP Amp.
 * Second output ? With it's own EQ and Volume ?
 * NuTube or Simulation of a little distortion. Maybe other effects ?
 * MP3 player - there is one for the teensy. Would need SDCard or so, How to copy files ? Just swap the card ? The Cardhold would obscure the VUSB hack !
+* ~~Radio streaming.. WLAN hasl...~~
 
 # Status
 
 * Theory is somewhat more defined in my head.
 * Started to build some blocks
     * TPA6120 module - Made my own, running with only single 5V - to be tested.
-    * DSP - I have an freeDSP-SMD-B to experiment with
-    * NuTube ? I have a NuTube HP Amp which is'nt great but could be recycled into something usefull
+    * DSP - I have a freeDSP-SMD-B to experiment with
+    * NuTube ? I have a NuTube HP Amp which is'nt great but could be recycled into something usefull - not so available !
 
 # Next up ?
 
+#### HPAmp design ?
+
+* TPA6120A2 in the works with 5V conveter no Elkos it's big (there is a QFN version)
+* TPA6130A2 ??? 5V only, I2C Vol Ctl, no Elkos !?
+* TPA6133A2 ??? same, no vol ctl
+
 #### Teensy + DSP
+
 * Can the teensy be slave i2s ??? Otherwise it would need an extra SRC.
-    There is a slave i2s out...
+    There is a slave i2s out... Will it work with usb, does it need to be 44100kHz ?
     ```
     AudioInputUSB            usb1;
     AudioOutputI2Sslave      i2sslave1;
@@ -44,6 +52,7 @@ New plan... Make my own HP Amp.
 #### Power Block Design
 
 * Use Adafruit PowerThing ?
+    * Use a TPS61093 ? Higher output voltage ? For NuTube ?
 * How to get the teensy integrated, would need to patch into VUSB -> PowerBlock -> 5V back to the Teensy ?
     * Cut trace in the back, solder some wire to VUSB ? Or use pogopins ? Not nice.
 * Noise ???

@@ -1,4 +1,4 @@
-23685078430517677
+23676476551102204
 Adafruit PowerBoost 1000C Rev B
 1X08_ROUND
 
@@ -57819,34 +57819,6 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
-HPAmp
-CaseBB
-
-
-0
-0
-0
-HPAmp
-PVQFN-16
-
-
-0
-22
-22
-HPAmp
-QFN20_4MM
-20-Lead QFN 4x4mm Body, 0.5mm pitch{return}{return}Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22090b.pdf
-
-0
-21
-21
-HPAmp
-WQFN-16-1EP_3x3mm_P0.5mm_LongPad_ThermalVia
-WQFN, 16 Pin (https://www.ti.com/lit/ds/symlink/tlv9064.pdf#page=44), generated with kicad-footprint-generator ipc_noLead_generator.py
-WQFN NoLead
-0
-23
-17
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -63614,13 +63586,6 @@ SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open, labeled with number
 solder jumper open
 0
 5
-3
-KLIB_Audio
-REP-ABS-224-RC
-http://www.farnell.com/datasheets/1660949.pdf
-speaker
-0
-10
 3
 LED_SMD
 LED-APA102-2020

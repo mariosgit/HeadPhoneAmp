@@ -2,5 +2,4 @@
   (version 7)
   (lib (name "HPAmp")(type "KiCad")(uri "${KIPRJMOD}/HPAmp.kicad_sym")(options "")(descr ""))
   (lib (name "Adafruit PowerBoost 1000C Rev B-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/Adafruit PowerBoost 1000C Rev B-eagle-import.kicad_sym")(options "")(descr ""))
-  (lib (name "mcp73871")(type "KiCad")(uri "${KIPRJMOD}/mcp73871.kicad_sym")(options "")(descr ""))
 )
