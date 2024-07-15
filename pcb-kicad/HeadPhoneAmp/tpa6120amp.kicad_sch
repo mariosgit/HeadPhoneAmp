@@ -4541,6 +4541,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFNAME" "RK73H1JTTD47R0F"
+			(at 196.85 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0897dba4-6b1c-41da-a1a9-97d4fec001e4")
 		)
@@ -4615,6 +4624,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFNAME" "CC453232-2R2KL"
+			(at 78.74 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3d1e08fe-6734-4a5d-83dd-a22c6f6d7295")
 		)
@@ -4674,6 +4692,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 196.85 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFNAME" "-"
 			(at 196.85 72.39 0)
 			(effects
 				(font
@@ -4750,6 +4777,15 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
+			(at 120.65 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFNAME" "-"
 			(at 120.65 58.42 0)
 			(effects
 				(font
@@ -4894,6 +4930,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFNAME" "-"
+			(at 120.65 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6d39ded6-b49b-4b38-b690-4c974ae77bfb")
 		)
@@ -4956,6 +5001,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 185.42 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFNAME" "-"
 			(at 185.42 137.16 0)
 			(effects
 				(font
@@ -5034,6 +5088,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFNAME" "-"
+			(at 267.97 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "69738df9-6845-4653-96e7-7b6c91412d20")
 		)
@@ -5094,6 +5157,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 217.17 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFNAME" "-"
 			(at 217.17 54.61 0)
 			(effects
 				(font
@@ -5178,6 +5250,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFNAME" "-"
+			(at 173.99 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "673caf97-4ea9-4141-bbef-0af97f44c506")
 		)
@@ -5248,6 +5329,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFNAME" "RK73H1JTTD1203F"
+			(at 107.95 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1b14209b-9dd8-4661-9c5c-e15572ee4f3b")
 		)
@@ -5310,6 +5400,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 255.27 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFNAME" "-"
 			(at 255.27 137.16 0)
 			(effects
 				(font
@@ -5523,6 +5622,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFNAME" "-"
+			(at 196.85 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c6b65372-9683-4bbe-bffa-1c83eba80083")
 		)
@@ -5657,6 +5765,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 107.95 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFNAME" "RK73H1JTTD4873F"
 			(at 107.95 99.06 0)
 			(effects
 				(font
@@ -5872,6 +5989,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFNAME" "-"
+			(at 218.44 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "20"
 			(uuid "12d09e59-1e5b-41b2-953e-5b4b2443d249")
 		)
@@ -5997,6 +6123,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 41.91 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFNAME" "-"
 			(at 41.91 85.09 0)
 			(effects
 				(font
@@ -6139,6 +6274,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFNAME" "-"
+			(at 217.17 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0d635b99-8101-4ce5-af61-a9019c7486b8")
 		)
@@ -6205,6 +6349,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 237.49 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFNAME" "RK73H3ATTE39R2F"
 			(at 237.49 69.85 0)
 			(effects
 				(font
@@ -6355,6 +6508,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFNAME" "-"
+			(at 52.07 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "31baf2c4-4a0e-4cef-8744-c0a2d98471b6")
 		)
@@ -6389,7 +6551,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "~"
 			(at 129.0321 121.92 0)
 			(effects
 				(font
@@ -6418,6 +6580,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 127 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFNAME" "-"
 			(at 127 119.38 0)
 			(effects
 				(font
@@ -6560,6 +6731,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFNAME" "-"
+			(at 123.19 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "be282340-10fc-40b0-94b3-ab73729cd9ff")
 		)
@@ -6622,6 +6802,15 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
+			(at 20.32 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFNAME" "-"
 			(at 20.32 67.31 0)
 			(effects
 				(font
@@ -6766,6 +6955,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFNAME" "-"
+			(at 241.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8a57432e-06df-4e3c-98dd-31f63734c721")
 		)
@@ -6805,7 +7003,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TPS65135"
 			(at 79.375 67.31 0)
 			(effects
 				(font
@@ -6833,6 +7031,15 @@
 		)
 		(property "Description" ""
 			(at 76.2 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFNAME" "-"
+			(at 78.74 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6944,6 +7151,15 @@
 		)
 		(property "Description" "Stereo, 9.0- to 33.0-V, analog input headphone amplifier with 128 dB dynamic range"
 			(at 185.42 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFNAME" "-"
+			(at 218.44 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7084,6 +7300,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFNAME" "-"
+			(at 31.75 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "592471be-d09a-4122-a266-5739e198af15")
 		)
@@ -7152,6 +7377,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFNAME" "RK73H3ATTE39R2F"
+			(at 237.49 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b0a18c8b-5ae7-4ca4-bbef-9dda5f3ce040")
 		)
@@ -7192,7 +7426,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "~"
 			(at 129.0321 53.34 0)
 			(effects
 				(font
@@ -7221,6 +7455,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 127 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFNAME" "-"
 			(at 127 50.8 0)
 			(effects
 				(font
@@ -7420,6 +7663,15 @@
 		)
 		(property "Description" "Stereo, 9.0- to 33.0-V, analog input headphone amplifier with 128 dB dynamic range"
 			(at 218.44 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFNAME" "-"
+			(at 218.44 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7695,6 +7947,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFNAME" "RK73H1JTTD47R0F"
+			(at 196.85 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "08fdb6a0-9001-4539-8515-5f757d655b79")
 		)
@@ -7763,6 +8024,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 107.95 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFNAME" "RK73H1JTTD3653F"
 			(at 107.95 72.39 0)
 			(effects
 				(font
@@ -7907,6 +8177,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFNAME" "-"
+			(at 123.19 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d575300a-3e30-4d01-b42a-8ea10b911105")
 		)
@@ -7969,6 +8248,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 195.58 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFNAME" "-"
 			(at 195.58 137.16 0)
 			(effects
 				(font

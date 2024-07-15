@@ -29,9 +29,26 @@ New plan... Make my own HP Amp.
 
 #### HPAmp design ?
 
-* TPA6120A2 in the works with 5V conveter no Elkos it's big (there is a QFN version)
-* TPA6130A2 ??? 5V only, I2C Vol Ctl, no Elkos !?
-* TPA6133A2 ??? same, no vol ctl
+* TPA6120A2 in the works with 5V conveter, it's big (there is a QFN version)
+
+#### Power Block Design
+
+* Use Adafruit PowerThing ?
+    * Added charge pump for 10V as in the DS
+* How to get the teensy integrated, would need to patch into VUSB -> PowerBlock -> 5V back to the Teensy ?
+    * Cut trace in the back, solder some wire to VUSB ? Or use pogopins ? Not nice.
+* Noise ??? Will see...
+
+#### NuTube
+
+* Create own board 
+    * Bias voltage driven by OpAmp ! Input a single Pot or CV
+    * With ADC ? as a FX loopback ?
+
+#### VFD/OLED
+
+* Make board for MN12832 ?
+    * Can I borrow voltage from the booster ? Add more charge pumps..
 
 #### Teensy + DSP
 
@@ -48,14 +65,6 @@ New plan... Make my own HP Amp.
     Mhm wanted to use the internal DAC for NuTube bias...
 * Test I2S slave (with DSP)
 * Test internal DAC for NuTube
-
-#### Power Block Design
-
-* Use Adafruit PowerThing ?
-    * Use a TPS61093 ? Higher output voltage ? For NuTube ?
-* How to get the teensy integrated, would need to patch into VUSB -> PowerBlock -> 5V back to the Teensy ?
-    * Cut trace in the back, solder some wire to VUSB ? Or use pogopins ? Not nice.
-* Noise ???
 
 #### BT Audio
 

@@ -979,13 +979,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "AudioJack3"
+		(property "Value" "~"
 			(at 185.42 100.9649 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal"
@@ -1007,6 +1008,15 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 177.8 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFNAME" "-"
 			(at 177.8 100.33 0)
 			(effects
 				(font
@@ -1052,13 +1062,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "~"
 			(at 168.91 95.7579 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
@@ -1080,6 +1091,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 166.37 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFNAME" "-"
 			(at 166.37 97.79 0)
 			(effects
 				(font
@@ -1119,13 +1139,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "~"
 			(at 168.91 104.9019 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
@@ -1147,6 +1168,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 166.37 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFNAME" "-"
 			(at 166.37 100.33 0)
 			(effects
 				(font
@@ -1185,12 +1215,13 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket"
+		(property "Value" "~"
 			(at 79.375 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
@@ -1212,6 +1243,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 78.74 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFNAME" "-"
 			(at 78.74 77.47 0)
 			(effects
 				(font
@@ -1385,12 +1425,13 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x03"
+		(property "Value" "~"
 			(at 72.39 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
@@ -1412,6 +1453,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 72.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFNAME" "-"
 			(at 72.39 102.87 0)
 			(effects
 				(font
@@ -1457,13 +1507,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "~"
 			(at 168.91 121.4119 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
@@ -1485,6 +1536,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 166.37 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFNAME" "-"
 			(at 166.37 116.84 0)
 			(effects
 				(font

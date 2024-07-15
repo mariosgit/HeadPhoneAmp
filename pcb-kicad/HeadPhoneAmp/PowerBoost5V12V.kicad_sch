@@ -6113,7 +6113,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "2.2u"
 			(at 17.54 165.12 90)
 			(effects
 				(font
@@ -6140,6 +6140,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 15.24 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFNAME" "EMK107BJ225KA-T"
 			(at 15.24 166.37 0)
 			(effects
 				(font
@@ -6342,6 +6351,15 @@
 			)
 		)
 		(property "Description" "PNP bias resistor transistor, emitter/collector/base"
+			(at 124.46 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFNAME" "MMUN2133LT1G"
 			(at 124.46 176.53 0)
 			(effects
 				(font
@@ -6553,6 +6571,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFNAME" "EMK107BJ225KA-T"
+			(at 34.29 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fa433379-38dc-44d4-8140-24a0eed78214")
 		)
@@ -6686,6 +6713,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFNAME" "TMK107BJ104KA-T"
+			(at 22.86 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5bd02341-f965-4f8d-928b-07cc7f9d1952")
 		)
@@ -6720,7 +6756,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "~"
 			(at 21.59 46.2279 0)
 			(effects
 				(font
@@ -6879,6 +6915,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 109.22 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFNAME" "RK73H1JTTD1001F"
 			(at 109.22 138.43 0)
 			(effects
 				(font
@@ -7087,6 +7132,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFNAME" "RK73H1JTTD1003F"
+			(at 43.18 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ed01fe70-244e-4a24-a5ab-123da7f4915c")
 		)
@@ -7147,6 +7201,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 125.73 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFNAME" "RK73H1JTTD1001F"
 			(at 125.73 186.69 0)
 			(effects
 				(font
@@ -7289,6 +7352,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFNAME" "RK73H1JTTD3403F"
+			(at 30.48 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2ded3d67-a077-42e1-81d2-507122943f2c")
 		)
@@ -7323,7 +7395,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "~"
 			(at 11.43 52.5779 0)
 			(effects
 				(font
@@ -7424,6 +7496,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFNAME" "RK73H1HTTCM4302D RK73H1JTTD1874F"
+			(at 78.74 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f6712129-b94f-47e3-b4e3-d8834ebdaee2")
 		)
@@ -7492,6 +7573,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFNAME" "RK73H1JTTD1001F"
+			(at 99.06 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3c31dc9b-c525-4f51-9113-69217ccd3b1c")
 		)
@@ -7524,7 +7614,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "1k"
 			(at 130.81 74.93 0)
 			(effects
 				(font
@@ -7552,6 +7642,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 130.81 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFNAME" "RK73H1JTTD1001F"
 			(at 130.81 74.93 0)
 			(effects
 				(font
@@ -7620,6 +7719,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 189.23 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFNAME" "RK73H1JTTD1502F"
 			(at 189.23 72.39 0)
 			(effects
 				(font
@@ -7761,6 +7869,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFNAME" "TMK107BJ104KA-T"
+			(at 62.23 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "107637a0-84c8-46fb-b445-bcd338887355")
 		)
@@ -7823,6 +7940,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 158.75 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFNAME" "MCP73871T"
 			(at 158.75 54.61 0)
 			(effects
 				(font
@@ -7959,6 +8085,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFNAME" "BAT54S"
+			(at 78.74 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5464c9e6-d7b4-4879-af8f-2c3c68512e97")
 		)
@@ -8030,6 +8165,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFNAME" "RK73H1JTTD1003F"
+			(at 138.43 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eecdb403-6f6c-4ce1-9cc7-a6c2a4b2c9d6")
 		)
@@ -8062,7 +8206,7 @@
 				)
 			)
 		)
-		(property "Value" "LED0805_NOOUTLINE"
+		(property "Value" "~"
 			(at 120.65 141.224 0)
 			(effects
 				(font
@@ -8158,6 +8302,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 123.19 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFNAME" "RK73H1JTTD1003F"
 			(at 123.19 34.29 0)
 			(effects
 				(font
@@ -8332,7 +8485,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PAD"
+		(property "Value" "~"
 			(at 214.63 79.2479 0)
 			(effects
 				(font
@@ -8633,6 +8786,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFNAME" "TPS61090RSAR"
+			(at 60.96 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "147427cb-e93c-49f3-b9f1-3f46e65bb5ea")
 		)
@@ -8789,7 +8951,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "HEADER-1X8ROUND"
+		(property "Value" "~"
 			(at 219.71 186.69 0)
 			(effects
 				(font
@@ -9009,14 +9171,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-USC1210"
+		(property "Value" "22u"
 			(at 94.996 164.211 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
@@ -9038,6 +9199,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 93.98 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFNAME" "293D226X96R3A2TE3"
 			(at 93.98 160.02 0)
 			(effects
 				(font
@@ -9312,6 +9482,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFNAME" "74406042068"
+			(at 33.02 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "P$1"
 			(uuid "a2ad5266-5dd5-43fa-9a4b-9c82ae2a1d22")
 		)
@@ -9372,6 +9551,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 30.48 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFNAME" "RK73H1HTTCM4302D RK73H1JTTD1874F"
 			(at 30.48 163.83 0)
 			(effects
 				(font
@@ -9843,6 +10031,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFNAME" "EMK107BJ225KA-T"
+			(at 88.9 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8ccb113d-12fa-4c76-9286-c65376a10b32")
 		)
@@ -10073,7 +10270,7 @@
 				)
 			)
 		)
-		(property "Value" "LED0805_NOOUTLINE"
+		(property "Value" "~"
 			(at 105.156 27.94 0)
 			(effects
 				(font
@@ -10143,7 +10340,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "~"
 			(at 26.67 84.3279 0)
 			(effects
 				(font
@@ -10244,6 +10441,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFNAME" "RK73H1JTTD1003F"
+			(at 78.74 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "46c0a4f4-3b44-4a58-b976-225d27730e0b")
 		)
@@ -10278,7 +10484,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "~"
 			(at 15.24 52.5779 0)
 			(effects
 				(font
@@ -10475,7 +10681,7 @@
 				)
 			)
 		)
-		(property "Value" "LED0805_NOOUTLINE"
+		(property "Value" "~"
 			(at 96.266 27.94 0)
 			(effects
 				(font
@@ -10741,7 +10947,7 @@
 				)
 			)
 		)
-		(property "Value" "LOW-BAT"
+		(property "Value" "~"
 			(at 122.936 195.58 0)
 			(effects
 				(font
@@ -10910,6 +11116,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFNAME" "RK73H1JTTD1001F"
+			(at 107.95 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "56387283-e246-408f-bc92-44d49038fdeb")
 		)
@@ -10970,6 +11185,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 78.74 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFNAME" "RK73H1JTTD1003F"
 			(at 78.74 185.42 0)
 			(effects
 				(font
@@ -11046,6 +11270,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFNAME" "RK73H1JTTD2703F"
+			(at 123.19 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "90040d93-a242-447d-8640-3071dfb848e1")
 		)
@@ -11079,7 +11312,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "BATTERY"
+		(property "Value" "~"
 			(at 209.55 67.31 0)
 			(effects
 				(font
@@ -11175,6 +11408,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 86.36 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFNAME" "EMK107BJ225KA-T"
 			(at 86.36 161.29 0)
 			(effects
 				(font
@@ -11375,6 +11617,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 196.85 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFNAME" "EMK107BJ225KA-T"
 			(at 196.85 62.23 0)
 			(effects
 				(font

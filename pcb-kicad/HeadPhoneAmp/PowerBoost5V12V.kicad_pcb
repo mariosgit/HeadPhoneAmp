@@ -172,6 +172,19 @@
 				)
 			)
 		)
+		(property "MFNAME" "BAT54S"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60cccee0-b812-4c38-b2dd-668ab6fd8e3d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/5b3e6c54-35fe-4a74-a134-72fa77ac340c")
 		(sheetname "Root")
@@ -389,7 +402,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "2.2u"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(uuid "f7461536-5394-4d70-ada6-60ebee6097b9")
@@ -435,6 +448,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFNAME" "EMK107BJ225KA-T"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c1f1250-52f5-418c-8845-98c15c748383")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -653,6 +679,19 @@
 				)
 			)
 		)
+		(property "MFNAME" "EMK107BJ225KA-T"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "636e5a67-1f05-44f5-ae16-771704f69cb0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/aef6c3ee-6e5f-43a6-87eb-0be9b6a8f118")
 		(sheetname "Root")
 		(sheetfile "PowerBoost5V12V.kicad_sch")
@@ -817,7 +856,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "1k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "ede3dfe9-7c13-4424-a481-793d109bc4f1")
@@ -863,6 +902,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFNAME" "RK73H1JTTD1001F"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85d174d8-7448-464e-a485-0149b6b46ff0")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1082,6 +1134,19 @@
 				)
 			)
 		)
+		(property "MFNAME" "RK73H1JTTD1003F"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66b0ea85-8edc-46ca-8dc9-562b2645a904")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/6b5b05ba-3346-4785-a766-0b66bb71e668")
 		(sheetname "Root")
 		(sheetfile "PowerBoost5V12V.kicad_sch")
@@ -1246,7 +1311,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "LED0805_NOOUTLINE"
+		(property "Value" "~"
 			(at 17.0246 -0.31698 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1631,6 +1696,19 @@
 				)
 			)
 		)
+		(property "MFNAME" "74406042068"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0d2b839-a169-4250-80e2-c09d10b8b8c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/9e444542-02d1-4d81-bc5c-acb5f64413d9")
 		(sheetname "Root")
 		(sheetfile "PowerBoost5V12V.kicad_sch")
@@ -1823,6 +1901,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFNAME" "RK73H1JTTD2703F"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8796227-c23c-4bd1-818e-c6ac4d0b4034")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2037,6 +2128,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFNAME" "TMK107BJ104KA-T"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7660896d-0d8a-43c0-8d44-837810c4b717")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2256,6 +2360,19 @@
 				)
 			)
 		)
+		(property "MFNAME" "RK73H1JTTD1502F"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d6d2b97f-590d-43ad-a2e6-792fa34ffbd3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/4d91e89b-feca-4bd0-894b-15ddd88bf1b3")
 		(sheetname "Root")
 		(sheetfile "PowerBoost5V12V.kicad_sch")
@@ -2467,6 +2584,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFNAME" "RK73H1JTTD1001F"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b20bc0bb-7d2a-45c8-9b35-91e70de9b0a6")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2686,6 +2816,19 @@
 				)
 			)
 		)
+		(property "MFNAME" "RK73H1JTTD3403F"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47bffbd5-b18d-4ae8-b2d0-aab5c94143e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/38087fbe-576b-46dd-976e-64311a86af7f")
 		(sheetname "Root")
 		(sheetfile "PowerBoost5V12V.kicad_sch")
@@ -2850,7 +2993,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "LED0805_NOOUTLINE"
+		(property "Value" "~"
 			(at 1.397 1.016 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3237,6 +3380,19 @@
 				)
 			)
 		)
+		(property "MFNAME" "RK73H1JTTD1003F"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c132088a-75fa-4508-87f5-ab6b4c22f70e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/6011b401-7cd4-490a-8af9-361d4062892b")
 		(sheetname "Root")
 		(sheetfile "PowerBoost5V12V.kicad_sch")
@@ -3444,6 +3600,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFNAME" "TPS61090RSAR"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d079c3c0-9047-4e45-844a-4e4af766bdb9")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3930,7 +4099,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "~"
 			(at 0 2.5 0)
 			(layer "F.Fab")
 			(uuid "f184819b-4e9f-4385-bd5f-d09ff2d60140")
@@ -4144,6 +4313,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFNAME" "RK73H1JTTD1001F"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b31d75ce-5d69-4688-888c-526ed96a0384")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4363,6 +4545,19 @@
 				)
 			)
 		)
+		(property "MFNAME" "RK73H1HTTCM4302D RK73H1JTTD1874F"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f7b9f4a-d611-4288-8335-7d4ba3f36568")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/3d814cdc-9fd7-427c-ae30-9f8feff0be91")
 		(sheetname "Root")
 		(sheetfile "PowerBoost5V12V.kicad_sch")
@@ -4577,6 +4772,19 @@
 				)
 			)
 		)
+		(property "MFNAME" "EMK107BJ225KA-T"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99c378da-fd28-44e9-ad94-7472e6d753f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/fae7c4c8-1573-4867-bc42-29b2079a630e")
 		(sheetname "Root")
 		(sheetfile "PowerBoost5V12V.kicad_sch")
@@ -4742,7 +4950,7 @@
 				)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "~"
 			(at 1.905 0.635 90)
 			(layer "F.Fab")
 			(uuid "5414d5d0-c6bf-45ab-86a7-b9e7fac96879")
@@ -4910,7 +5118,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "HEADER-1X8ROUND"
+		(property "Value" "~"
 			(at -10.16 3.175 0)
 			(layer "F.Fab")
 			(uuid "bdcb8590-77d9-458c-9ac0-ee55bafc9ffe")
@@ -5240,6 +5448,19 @@
 				)
 			)
 		)
+		(property "MFNAME" "RK73H1JTTD1001F"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c26b55ab-b733-48c9-893f-d99d4b8a9a8e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/de9e1d8c-b609-482a-a829-aaa877329946")
 		(sheetname "Root")
 		(sheetfile "PowerBoost5V12V.kicad_sch")
@@ -5405,7 +5626,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "~"
 			(at 0 -2.032 0)
 			(layer "F.Fab")
 			(uuid "298734d6-d6da-4538-9ede-dcc1cd319633")
@@ -5619,6 +5840,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFNAME" "TMK107BJ104KA-T"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94bdaf00-4f70-4f88-aa31-2ac4c56f1253")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5838,6 +6072,19 @@
 				)
 			)
 		)
+		(property "MFNAME" "RK73H1JTTD1003F"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ee3268e-f463-49f0-84d1-45a85145f611")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/c36f5f70-cdf3-442a-bf7b-8716ebfc4664")
 		(sheetname "Root")
 		(sheetfile "PowerBoost5V12V.kicad_sch")
@@ -6052,6 +6299,19 @@
 				)
 			)
 		)
+		(property "MFNAME" "RK73H1JTTD1003F"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "906bee67-ffb2-4343-b863-3982b32b7862")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/3507ab3a-1e25-4280-bb81-517140f01519")
 		(sheetname "Root")
 		(sheetfile "PowerBoost5V12V.kicad_sch")
@@ -6216,7 +6476,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "LOW-BAT"
+		(property "Value" "~"
 			(at 1.905 2.667 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6602,6 +6862,19 @@
 				)
 			)
 		)
+		(property "MFNAME" "EMK107BJ225KA-T"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "551a4a76-91b9-4623-8f7f-e2a3d10a27ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ee12c7e0-8eef-48a1-9ce4-172631e4e08f")
 		(sheetname "Root")
 		(sheetfile "PowerBoost5V12V.kicad_sch")
@@ -6812,6 +7085,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFNAME" "RK73H1JTTD1003F"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b922193-e5d5-4b04-9f93-fd4153a6afd3")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7031,6 +7317,19 @@
 				)
 			)
 		)
+		(property "MFNAME" "RK73H1HTTCM4302D RK73H1JTTD1874F"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af00df12-2d49-48d2-a63e-7ff59364ec9d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/9ead53ad-7380-4c59-8918-b90bff0a0c9c")
 		(sheetname "Root")
 		(sheetfile "PowerBoost5V12V.kicad_sch")
@@ -7241,6 +7540,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFNAME" "RK73H1JTTD1001F"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9913441-7456-4f38-8c02-2bdd4332d9d4")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7456,6 +7768,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFNAME" "MMUN2133LT1G"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9a421bf-e6d1-4026-a1a2-7c512cb01c13")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7726,6 +8051,19 @@
 				)
 			)
 		)
+		(property "MFNAME" "EMK107BJ225KA-T"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b32b368f-9d5c-4103-925b-d830e7482740")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/1af442af-2d97-4a7c-bbac-96ef162e816c")
 		(sheetname "Root")
 		(sheetfile "PowerBoost5V12V.kicad_sch")
@@ -7891,7 +8229,7 @@
 				)
 			)
 		)
-		(property "Value" "PAD"
+		(property "Value" "~"
 			(at 0 -2.8 0)
 			(layer "F.Fab")
 			(uuid "8a0c0435-d1e6-4b43-912c-4ab06899f28d")
@@ -8072,7 +8410,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "~"
 			(at 0 -2.8 0)
 			(layer "F.Fab")
 			(uuid "ad62d7e7-965c-4adf-b62d-4a44ecd2e8d0")
@@ -8240,7 +8578,7 @@
 				)
 			)
 		)
-		(property "Value" "C-USC1210"
+		(property "Value" "22u"
 			(at 0 2.3 -90)
 			(layer "F.Fab")
 			(uuid "afe97276-0bde-4950-b2f9-f67ecd3f324d")
@@ -8286,6 +8624,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFNAME" "293D226X96R3A2TE3"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a5eca22-b66c-4897-bed6-354fded64309")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8455,7 +8806,7 @@
 				)
 			)
 		)
-		(property "Value" "BATTERY"
+		(property "Value" "~"
 			(at 5.334 0.635 -90)
 			(layer "F.Fab")
 			(uuid "e1a22e47-75d5-406f-8e90-a3d9464982ba")
@@ -8966,6 +9317,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFNAME" "MCP73871T"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b839bee-4750-4c45-a56c-398246b8b0c7")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9651,7 +10015,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "LED0805_NOOUTLINE"
+		(property "Value" "~"
 			(at -1.905 1.777999 0)
 			(layer "F.Fab")
 			(hide yes)
