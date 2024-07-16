@@ -11,7 +11,10 @@ New plan... Make my own HP Amp.
 ##### Goodies
 
 * More Inputs (in that order)
-   * USB (Teensy4 can also control DSP, Bluetooth, 16bit is ok for playback), SPDIF
+   * USB (Teensy4 can also control DSP, Bluetooth, 16bit is ok for playback)
+   * BT (just plug in a module CSR8635?)
+   * WLAN (Radio, Subsonic and Ampache protocols for nextcloud music) cry for ESP32 (rabbithole! [bt a2dp](https://github.com/pschatzmann/ESP32-A2DP) [iradio](https://github.com/Edzelf/ESP32Radio-V2) [streem gedoehns](https://github.com/sle118/squeezelite-esp32) )
+   * SPDIF (not really on a HP amp)
 * Second output ? With it's own EQ and Volume ?
 * NuTube or Simulation of a little distortion. Maybe other effects ?
 * MP3 player - there is one for the teensy. Would need SDCard or so, How to copy files ? Just swap the card ? The Cardhold would obscure the VUSB hack !
@@ -79,3 +82,4 @@ New plan... Make my own HP Amp.
 
 Used some Symbols... https://github.com/wykys/klib 
 
+Ti's [I2C expander collection](https://www.ti.com/interface/i2c/general-purpose-ios-gpios/overview.html?keyMatch=i/o%20expander&tisearch=search-everything)

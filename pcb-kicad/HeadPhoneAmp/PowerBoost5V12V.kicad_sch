@@ -7918,7 +7918,6 @@
 					(size 1.27 1.0795)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "HPAmp:QFN20_4MM"
