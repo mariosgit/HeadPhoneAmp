@@ -40,7 +40,23 @@ New plan... Make my own HP Amp.
     * Added charge pump for 10V as in the DS
 * How to get the teensy integrated, would need to patch into VUSB -> PowerBlock -> 5V back to the Teensy ?
     * Cut trace in the back, solder some wire to VUSB ? Or use pogopins ? Not nice.
-* Noise ??? Will see...
+* Noise ??? Will see... yes 200mVpp @ 65kHz, audible when directly driving a 16ohm speaker
+
+* Cap Mult for analog voltage, or just a regulator ? [SIM](https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWcDoBYDsAmdA2dBOdMMADhzEnxAQiVQGZqBTAWmICgAnEbTHkkjyzgwfSMkjsAxuHx8wuWX0ypxa2PEiY+6aPjAMi6dJAOpMCdCDaTuOVOEVgc4hTig9McdgDdr+d20HFgCRMXBweAiqdQR2AHN-QJUk-kE1BKFlASyQekgHDIB3HkhBYmVhCvB2ABclcFQHMDkwvIiWGDl9fEh0BHwEchILMWgcQYQtS3xzPonmuBAAEyYAMwBDAFcAG1r2EpbswV40qAOGt0um88OXR3cjxsKL+weQN+qwV+bRd+rJAAHPIIeQ3eigniqdrFEFghwQ+R-SQlRFtU4Ai5olTibE5FFws6nTD4i4hdwseh8cltAk06qfZEXJ6oE7CVnnGRPSnyVoc9SaLR8EjQYxgBAIVT0QgUVA4QQ2TIs8qtN4ZbinDmnHkecVAwk6tEcxiwo1svj8smhHVsClU24NHXa+3fErOvhonW2azOawu1pemqHVoklXKaGSAD27XSIAAHiQTGAAEYfKAaUy6njWdD0djRsCMWMJ-J-eh6HDkBACPDEaX0dwweAQFvZli4fPgIseONSQt-CjpiDyCIwJBRqEgYt90zydQQRitsfnejlEAAMQgAs0W4zFAgbBAAGENoCNlIAJa1DYAOykTHYq48m6z+59IAASkwAM4X7-Xu8HyAA)
+
+##### Results v0.1
+
+* C6 can be much larger according to DS. Available up to 220uF.
+* Has no BAT protection ? The testbat emptied down to 2V ! Just clarify.
+* Make charge Amps quick changeable with a PHT resistor ?
+* Could add a PG PowerGood LED, this shows when device is connected to some power source
+* Check 10V load ❗
+* Add option for higher voltage as in the GP??94 controller ?
+
+##### Bugs v0.1
+
+* ! Q1 is **wrong** MMUN2133LT1G it's BEC(123) - just switched to the "BEC" symbol. ✅
+* C5 (+10V) was connected to ground, should be between +10 and +5V, works anyway ✅
 
 #### NuTube
 
@@ -77,6 +93,14 @@ New plan... Make my own HP Amp.
 ##### Advanced 
 
 * Loop back Nutube ? With an extra ADC or CODEC ? Ad
+
+# Log
+
+| What | Time | Cost || What | Time | Cost |
+|---|---|---|---|---|---|---|
+| Make Power PCB | 1d | | | Test,Fix Power PCB | 1d | |
+|  Make HPBooster PCB | 1d | | | | | |
+| both mat+pcb | | 50 + 30 | | |
 
 # Refs
 
