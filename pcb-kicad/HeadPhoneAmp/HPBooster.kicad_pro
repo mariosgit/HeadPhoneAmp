@@ -52,7 +52,9 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "starved_thermal|111709944|109441902|513144a1-c481-46a2-88a4-2326fda30989|6c3367a2-05b3-48e0-8946-12d80a7990ef|F.Cu"
+      ],
       "meta": {
         "version": 2
       },
@@ -466,7 +468,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "jlcpcb/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

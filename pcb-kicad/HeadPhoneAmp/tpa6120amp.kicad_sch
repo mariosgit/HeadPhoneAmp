@@ -5962,7 +5962,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:HSOP-20-1EP_11.0x15.9mm_P1.27mm_SlugDown_ThermalVias"
+		(property "Footprint" "Package_SO:SOP-20_7.5x12.8mm_P1.27mm"
 			(at 218.44 119.38 0)
 			(effects
 				(font
@@ -7131,7 +7131,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:HSOP-20-1EP_11.0x15.9mm_P1.27mm_SlugDown_ThermalVias"
+		(property "Footprint" "Package_SO:SOP-20_7.5x12.8mm_P1.27mm"
 			(at 187.96 133.35 0)
 			(effects
 				(font
@@ -7643,7 +7643,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:HSOP-20-1EP_11.0x15.9mm_P1.27mm_SlugDown_ThermalVias"
+		(property "Footprint" "Package_SO:SOP-20_7.5x12.8mm_P1.27mm"
 			(at 218.44 100.33 0)
 			(effects
 				(font
