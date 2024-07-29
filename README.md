@@ -94,6 +94,13 @@ New plan... Make my own HP Amp.
 
 * Loop back Nutube ? With an extra ADC or CODEC ? Ad
 
+* Voltage monitoring TI Chips... [Supervisor IC for voltage monitoring ?](https://www.ti.com/power-management/supervisor-reset-ic/products.html#1455=1%3B1&)
+    * [Undervoltage detectors](https://www.ti.com/power-management/supervisor-reset-ic/products.html#1455=1%3B1&1811=3%20x%206.4%3B4.2%20x%203.26%3B4.9%20x%206%3B9.81%20x%209.43&2192=Undervoltage%3BUndervoltage%20and%20overvoltage%20monitor%3BUndervoltage%20monitor%20only&2954=SOIC%3BSOT-23%3BSOT-23-THN%3BSOT-5X3%3BTSSOP%3BWSON&790typ=Adjustable%3Badjustable%3BTrimmable&)
+    * TL7712A: /reset and reset signal @ 12V ? Looks simple enouth.Variants with lower voltage available. Max Voltage 20V !
+    * TPS38X-Q1 Wide VIN 65 V, dual voltage... X-choose type of action, have to order concrete function, 80cent , also can. TPS38F010122DSKRQ1 ???  qfn/wson 10 ?
+        * [TPS37F010122DSKR ???](https://www.ti.com/lit/ds/symlink/tps37.pdf) 3EUR der Pups, output=HIGH  otherwise use A version
+    
+
 # Log
 
 | What | Time | Cost || What | Time | Cost |
