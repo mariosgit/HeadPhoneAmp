@@ -34,6 +34,22 @@ New plan... Make my own HP Amp.
 
 * TPA6120A2 in the works with 5V conveter, it's big (there is a QFN version)
 
+##### Bugs v0.1
+
+* Wrong TPA footprint :-((
+
+##### Bugs v0.2 / Eval
+
+* ~~Oszilation on left output 12MHz ?? goes awai when osziloscoping the input line !?~~ Gone after adding C5, C4 2.2u from se reste kiste.
+* There is some noise, as is in the PRC breakout of this amp. Added 1k @ inputs to ground -> silence, no out v offset allmost.
+* input resistors to ground ? **YES** !
+    * 47k was noisy
+    * 1k is ok, depends on input ? previous stage power !
+* 10uF caps footprint could be larger / dual 1206?
+* On/Off clics ? Not too bad.
+* Add TPs for L/R inputs
+* Add LEDs for +-5V ?
+
 #### Power Block Design
 
 * Use Adafruit PowerThing ?
