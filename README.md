@@ -49,6 +49,7 @@ New plan... Make my own HP Amp.
 * On/Off clics ? Not too bad.
 * Add TPs for L/R inputs
 * Add LEDs for +-5V ?
+* TP and pullup for EN pin.
 
 #### Power Block Design
 
