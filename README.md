@@ -118,7 +118,11 @@ After some mangling, it performs well, no noise and quite some punch.
 * Ahh just another SRC needed ??? Or switch them between Teensy and BT ? And SPDif ?
 * Make a SPDIF/BT/USB I2S Switch + SRC  block design. it's all there.
 
+## SRC Board
 
+Because PRC boards are somewhat lacking...
+
+* Jumpers/DIP-Switches for config !
     
 
 # Log
