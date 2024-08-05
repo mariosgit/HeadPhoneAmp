@@ -31,28 +31,32 @@ New plan... Make my own HP Amp.
 
 # Tested so far...
 
-#### HPAmp design ?
+## HPAmp Design
 
-* TPA6120A2 in the works with 5V conveter, it's big (there is a QFN version)
+TPA6120A2 it's big (there is a QFN version) and a TPS65135 power converter as per datasheet.
+
+After some mangling, it performs well, no noise and quite some punch.
 
 ##### Bugs v0.1
 
-* Wrong TPA footprint :-((
+* Wrong TPA6120 footprint :-(
 
 ##### Bugs v0.2 / Eval
 
 * ~~Oszilation on left output 12MHz ?? goes awai when osziloscoping the input line !?~~ Gone after adding C5, C4 2.2u from se reste kiste.
-* There is some noise, as is in the PRC breakout of this amp. Added 1k @ inputs to ground -> silence, no out v offset allmost.
+* There is some noise and DC offset of 500mV, as is in the PRC breakout of this amp. Added 1k @ inputs to ground -> silence, no/minimal Vout offset.
 * input resistors to ground ? **YES** !
     * 47k was noisy
-    * 1k is ok, depends on input ? previous stage power !
+    * 1k is ok, depends on input ? consider previous stage power output !
 * 10uF caps footprint could be larger / dual 1206?
 * On/Off clics ? Not too bad.
-* Add TPs for L/R inputs
+* Add TestPoints for L/R inputs
 * Add LEDs for +-5V ?
-* TP and pullup for EN pin.
+* TestPoint and pullup for EN pin.
+* More ground pads.
+* Does not work with small BAT/Charger? Toggles on/off
 
-#### Power Block Design
+## Power Block Design
 
 * Use Adafruit PowerThing ?
     * Added charge pump for 10V as in the DS
@@ -73,25 +77,27 @@ New plan... Make my own HP Amp.
 
 ##### Bugs v0.1
 
-* ! Q1 is **wrong** MMUN2133LT1G it's BEC(123) - just switched to the "BEC" symbol. ✅
+* ! Q1 (low bat indicator) is **wrong** MMUN2133LT1G it's BEC(123) - just switched to the "BEC" symbol. ✅
 * C5 (+10V) was connected to ground, should be between +10 and +5V, works anyway ✅
-
+* Can it provide 50V using a longer charge pump ?
 
 # Next up ?
 
 
-#### NuTube
+## NuTube
 
 * Create own board 
     * Bias voltage driven by OpAmp ! Input a single Pot or CV
     * With ADC ? as a FX loopback ?
+* Loop back Nutube to DSP ? With an extra ADC or CODEC ? Ad
 
-#### VFD/OLED
+
+## VFD/OLED
 
 * Make board for MN12832 ?
-    * Can I borrow voltage from the booster ? Add more charge pumps..
+    * Can I borrow voltage from the power block ? Add more charge pumps..
 
-#### Teensy + DSP
+## Teensy/ESP32/STM32 + DSP
 
 * Can the teensy be slave i2s ??? Otherwise it would need an extra SRC.
     There is a slave i2s out... Will it work with usb, does it need to be 44100kHz ?
@@ -107,20 +113,12 @@ New plan... Make my own HP Amp.
 * Test I2S slave (with DSP)
 * Test internal DAC for NuTube
 
-#### BT Audio
+## BT Audio
 
 * Ahh just another SRC needed ??? Or switch them between Teensy and BT ? And SPDif ?
 * Make a SPDIF/BT/USB I2S Switch + SRC  block design. it's all there.
 
-##### Advanced 
 
-* Loop back Nutube ? With an extra ADC or CODEC ? Ad
-
-* Voltage monitoring TI Chips... [Supervisor IC for voltage monitoring ?](https://www.ti.com/power-management/supervisor-reset-ic/products.html#1455=1%3B1&)
-    * [Undervoltage detectors](https://www.ti.com/power-management/supervisor-reset-ic/products.html#1455=1%3B1&1811=3%20x%206.4%3B4.2%20x%203.26%3B4.9%20x%206%3B9.81%20x%209.43&2192=Undervoltage%3BUndervoltage%20and%20overvoltage%20monitor%3BUndervoltage%20monitor%20only&2954=SOIC%3BSOT-23%3BSOT-23-THN%3BSOT-5X3%3BTSSOP%3BWSON&790typ=Adjustable%3Badjustable%3BTrimmable&)
-    * TL7712A: /reset and reset signal @ 12V ? Looks simple enouth.Variants with lower voltage available. Max Voltage 20V !
-    * TPS38X-Q1 Wide VIN 65 V, dual voltage... X-choose type of action, have to order concrete function, 80cent , also can. TPS38F010122DSKRQ1 ???  qfn/wson 10 ?
-        * [TPS37F010122DSKR ???](https://www.ti.com/lit/ds/symlink/tps37.pdf) 3EUR der Pups, output=HIGH  otherwise use A version
     
 
 # Log
