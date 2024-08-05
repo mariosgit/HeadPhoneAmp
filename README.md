@@ -15,6 +15,7 @@ New plan... Make my own HP Amp.
    * BT (just plug in a module CSR8635?)
    * WLAN (Radio, Subsonic and Ampache protocols for nextcloud music) cry for ESP32 (rabbithole! [bt a2dp](https://github.com/pschatzmann/ESP32-A2DP) [iradio](https://github.com/Edzelf/ESP32Radio-V2) [streem gedoehns](https://github.com/sle118/squeezelite-esp32) )
    * SPDIF (not really on a HP amp)
+   * Analog++ Phono MM input with RIAA https://sound-au.com/project06.htm 
 * Second output ? With it's own EQ and Volume ?
 * NuTube or Simulation of a little distortion. Maybe other effects ?
 * MP3 player - there is one for the teensy. Would need SDCard or so, How to copy files ? Just swap the card ? The Cardhold would obscure the VUSB hack !
@@ -28,7 +29,7 @@ New plan... Make my own HP Amp.
     * DSP - I have a freeDSP-SMD-B to experiment with
     * NuTube ? I have a NuTube HP Amp which is'nt great but could be recycled into something usefull - not so available !
 
-# Next up ?
+# Tested so far...
 
 #### HPAmp design ?
 
@@ -57,6 +58,10 @@ New plan... Make my own HP Amp.
 
 * ! Q1 is **wrong** MMUN2133LT1G it's BEC(123) - just switched to the "BEC" symbol. ✅
 * C5 (+10V) was connected to ground, should be between +10 and +5V, works anyway ✅
+
+
+# Next up ?
+
 
 #### NuTube
 
