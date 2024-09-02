@@ -123,7 +123,12 @@ After some mangling, it performs well, no noise and quite some punch.
 Because PRC boards are somewhat lacking...
 
 * Jumpers/DIP-Switches for config !
-    
+
+## ADC Board ? 
+
+For more channels ? or FX loops
+* PCM1808 1.2Eur - 99db somewhat outdated, TI says try the PCM1822 ! ~3 Eur
+
 ## Analog mess
 
 ### BBE
