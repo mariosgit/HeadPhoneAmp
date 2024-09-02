@@ -124,6 +124,11 @@ Because PRC boards are somewhat lacking...
 
 * Jumpers/DIP-Switches for config !
     
+## Analog mess
+
+### BBE
+
+### uPC1892
 
 # Log
 
